@@ -1,9 +1,13 @@
 // FONTS
-// Google Font Import
-@import url("//fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 
 // Icon Font
-@include font-face(base, 'fonts/base');
+@include font-face('med', 'fonts/med');
+
+// Gothambook Font
+@include font-face('gotham', 'fonts/Gotham-Book', 700);
+
+// GothamLight
+@include font-face('gotham', 'fonts/Gotham-Light', 400);
 
 // For example:
 // @include font-face(SourceSansPro, fonts/SourceSansPro-Bold, 700, normal);

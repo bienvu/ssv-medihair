@@ -8,11 +8,11 @@
             "colors": [
               {
                 "variable": "$primary-color",
-                "code": "#112146"
+                "code": "#000f22"
               },
               {
                 "variable": "$text-color",
-                "code": "#000000"
+                "code": "#000f22"
               }
             ]
           }

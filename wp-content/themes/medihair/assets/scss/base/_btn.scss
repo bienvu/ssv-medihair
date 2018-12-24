@@ -1,6 +1,6 @@
 %btn,
 .btn {
-  @include roboto;
+  @include gotham;
   appearance: none;
   background-image: none;
   border-radius: 0;
@@ -12,19 +12,31 @@
   line-height: 1;
   min-width: rem(100px);
   outline: none;
-  padding: rem(15px 30px);
+  padding: rem(12px 62px);
   text-align: center;
   text-shadow: none;
   transition: all .3s ease;
-  background-color: $btn-color;
-  color: $white;
+  background-color: transparent;
+  color: $btn-color;
   cursor: pointer;
   outline: 0;
+  font-weight: 400;
 
   &:active,
   &:hover {
     background-color: $btn-color-hover;
     border-color: $btn-color-hover;
     color: $white;
+  }
+
+  &--white{
+    color: $white;
+    border-color: $white;
+
+    &:active,
+    &:hover{
+      background-color: $white;
+      color: $btn-color;
+    }
   }
 }
