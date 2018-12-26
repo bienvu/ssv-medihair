@@ -1,5 +1,5 @@
 ---
-title: Component demo
+title: Component banner
 ---
 
 This is descriptions.

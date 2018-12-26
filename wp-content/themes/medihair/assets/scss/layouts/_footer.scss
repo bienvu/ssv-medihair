@@ -84,7 +84,7 @@
             .book-link {
                 a {
                     @extend .btn;
-                    @extend .btn--white;
+                    @extend .btn--bg-white;
                     text-decoration: none;
                     font-weight: 600;
                     letter-spacing: 1px;

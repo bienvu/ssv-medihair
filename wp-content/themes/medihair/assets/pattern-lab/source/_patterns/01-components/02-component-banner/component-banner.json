@@ -1,13 +1,13 @@
 {
   "componentDemo": {
-    "title": "Component Demo",
+    "title": "Component Banner",
     "items": [
       {
         "include()": {
-          "pattern": "components-component-demo-item",
+          "pattern": "components-component-banner-item",
           "with": {
             "componentDemoItem": {
-              "title": "Component demo item 1",
+              "title": "Component Banner item 1",
               "body": "<p>This is body 1</p>"
             }
           },
@@ -16,10 +16,10 @@
       },
       {
         "include()": {
-          "pattern": "components-component-demo-item",
+          "pattern": "components-component-banner-item",
           "with": {
             "componentDemoItem": {
-              "title": "Component demo 2",
+              "title": "Component Banner 2",
               "body": "<p>This is body 2</p>"
             }
           },

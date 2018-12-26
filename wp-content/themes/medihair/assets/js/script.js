@@ -54,12 +54,12 @@
     // });
 
     //scroll to next section
-    // $('.js-scroll-down').click(function() {
-    //   var $next = $(this).parent().parent().next().offset().top;
-    //   $('html, body').animate({
-    //     scrollTop: $next
-    //   }, 'slow');
-    // });
+    $('.js-scroll-down').click(function() {
+      var $next = $(this).parent().parent().next().offset().top;
+      $('html, body').animate({
+        scrollTop: $next
+      }, 'slow');
+    });
 
     //Toggle Menu
     $('.menu-bars').click(function (e) {
@@ -94,6 +94,48 @@
           }
         }
       });
-  });
+    });
+
+    //slick for banner
+      $('.js-slider').slick({
+        dots: true,
+        autoplay: true,
+        speed: 2000,
+        fade: true,
+        autoplaySpeed: 2000,
+        prevArrow: '<span class="slick-prev slick-arrow" aria-label="Previous" type="span">Previous</span>',
+        nextArrow: '<span class="slick-next slick-arrow" aria-label="Next" type="span">Next</span>',
+        customPaging: function(slider, i) {
+          // this example would render "tabs" with titles
+          return '<span class="dot"></span>';
+        },
+        responsive: [{
+          breakpoint: 1024,
+          settings: {
+            dots: false,
+            arrows: false
+          }
+        }]
+      });
+
+    // Paralax.
+      var wdHeight = $(window).height();
+      $(window).on('scroll', function () {
+        var scrollTop = $(this).scrollTop(),
+            heroHeight = $('.banner').outerHeight();
+
+        imageEffect = { 'transform': 'translateY(' + -(scrollTop/6) + 'px)' };
+        $('.banner__images').css(imageEffect);
+
+        if($('.content-wrap').length) {
+          var $contentOffsetTop = $('.content-wrap').offset().top;
+          if(scrollTop > $contentOffsetTop) {
+            $('.banner').addClass('is-active');
+          } else {
+            $('.banner').removeClass('is-active');
+          }
+        }
+      });
+      
 
 }(this, this.document, this.jQuery));
