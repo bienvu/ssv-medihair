@@ -2,6 +2,9 @@
     &__top {
         padding: 40px 39px;
         margin: 0;
+        @media only screen and (max-width: $mobileOnly) {
+            padding: 20px 0;
+        }
     }
     &__bottom {
         &--copyright {
@@ -16,8 +19,17 @@
         justify-content: space-between;
         &--menu {
             .menu-footer {
+            	@media only screen and (max-width: $mobileOnly) {
+            		display: flex;
+            		justify-content: space-between;
+            	}
                 ul:nth-child(1) {
-                    width: 62%;
+                    @media only screen and (min-width: $tablet) {
+                        width: 62%;
+                    }
+                    @media only screen and (max-width: $mobileOnly) {
+                    	width: 70%;
+                    }
                     li {
                         margin-bottom: 12px;
                         a {
@@ -29,7 +41,13 @@
                     }
                 }
                 ul {
-                    width: 38%;
+                    @media only screen and (min-width: $tablet) {
+                        width: 38%;
+                    }
+                    @media only screen and (max-width: $mobileOnly) {
+                    	width: 30%;
+                    	padding: 0;
+                    }
                     li {
                         margin-bottom: 16px;
                     }
@@ -40,6 +58,9 @@
             .form-submit {
                 margin-top: 18px;
                 padding: 12px 35px;
+                @media only screen and (max-width: $mobileOnly) {
+                	width: 100%;
+                }
             }
             input[type="email"], input[type="text"] {
                 padding: 10px 15px;
@@ -103,6 +124,38 @@
                 width: 28%;
                 padding: 0 17px 0 0;
                 text-align: right;
+            }
+        }
+        @media only screen and (max-width: $mobileOnly) {
+            flex-direction: column;
+            &--address {
+                order: 1;
+                h4 {
+                    text-align: right;
+                    margin: 0 0 -25px 0;
+                }
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    .book-link {
+                        display: none;
+                    }
+                    .email {
+                        order: 2;
+                        align-self: flex-end;
+                    }
+                    .address {
+                        order: 1;
+                    }
+                }
+            }
+            &--form {
+                order: 2;
+            }
+            &--menu {
+                order: 3;
             }
         }
     }
