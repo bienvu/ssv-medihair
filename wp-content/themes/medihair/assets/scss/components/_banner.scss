@@ -1,7 +1,6 @@
 .banner {
   position: relative;
   height: 180px;
-  position: relative;
   z-index: 2;
 
   &.is-active {
@@ -18,7 +17,7 @@
   }
 
   @media only screen and (min-width: 1024px) {
-    height: 659px;
+    height: 579px;
   }
 
   &__inner {
@@ -48,11 +47,11 @@
     }
 
     @media only screen and (min-width: 1024px) {
-      height: 500px;
+      height: 579px;
     }
 
     @media only screen and (min-width: 1180px) {
-      top: 85px;
+      top: 90px;
     }
 
     img {
@@ -90,26 +89,41 @@
 
   &__content {
     position: absolute;
-    top: 50%;
+    bottom: 0;
     width: 100%;
     transform: translateY(-50%);
-    text-align: center;
-    padding: 0 20px;
-
-    @media only screen and (min-width: 1024px) {
-      padding: 0 60px;
+    text-align: left;
+    padding: 0 30px;
+    color: $white;
+    text-transform: uppercase;
+    span{
+        font-size: 13px;
+        letter-spacing: -0.3px;
     }
-
+    h3{
+        margin-bottom: 8px;
+        line-height: 20px; 
+    }
+    
+  }
+  &__subcontent{
+     position: absolute;
+    top: 45%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: right;
+    padding: 0 110px;
+    color: $white;
+    text-transform: uppercase;
+    h1{
+        line-height: 38px;
+        margin-bottom: 32px;
+    }
     .btn {
       @extend .btn--bg-white;
       // @extend .btn--large;
+      padding: 12px 35px;
     }
-  }
-
-  &__title {
-    // @extend %h1;
-    color: $white;
-    margin: 0;
   }
 
   &__link {
@@ -118,10 +132,10 @@
   }
 
   &--width-slider {
-    // height: calc(100vh - 65px);
+    height: calc(100vh - 65px);
 
     @media only screen and (min-width: 1180px) {
-      // height: calc(100vh - 90px);
+      height: calc(100vh - 90px);
     }
 
     .banner__title {

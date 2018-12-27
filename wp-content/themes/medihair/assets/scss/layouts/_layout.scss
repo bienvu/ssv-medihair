@@ -30,3 +30,17 @@ body {
   // @include show-breakpoints;
   text-size-adjust: none;
 }
+
+main {
+  margin-top: 65px;
+
+  @media only screen and (min-width: 1180px) {
+    margin-top: 90px;
+  }
+}
+
+.content-wrap {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
