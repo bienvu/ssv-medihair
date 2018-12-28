@@ -1,45 +1,42 @@
-%btn,
-.btn {
-  @include gotham;
-  appearance: none;
-  background-image: none;
-  border-radius: 0;
-  border: rem(1px) solid $btn-color;
-  box-shadow: none;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 13px;
-  line-height: 1;
-  min-width: rem(100px);
-  outline: none;
-  padding: rem(12px 0);
-  text-align: center;
-  text-shadow: none;
-  transition: all .3s ease;
-  background-color: transparent;
-  color: $btn-color;
-  cursor: pointer;
-  outline: 0;
-  font-weight: 700;
-  width: 180px;
-  letter-spacing: 1px;
-
-  &:active,
-  &:hover {
-    background-color: $btn-color-hover;
-    border-color: $btn-color-hover;
-    color: $white;
-    text-decoration: none;
-  }
-
-  &--bg-white{
-    color: $white !important;
-    border-color: $white!important;
-
-    &:active,
-    &:hover{
-      background-color: $white!important;
-      color: $btn-color!important;
+%btn, .btn {
+    @include gotham;
+    appearance: none;
+    background-image: none;
+    border-radius: 0;
+    border: rem(1px) solid $btn-color;
+    box-shadow: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1;
+    min-width: rem(100px);
+    outline: none;
+    padding: rem(12px 0);
+    text-align: center;
+    text-shadow: none;
+    transition: all .3s ease;
+    background-color: transparent;
+    color: $btn-color;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 700;
+    width: 180px;
+    letter-spacing: 1px;
+    @media only screen and (max-width: $mobileOnly) {
+        width: 100%;
     }
-  }
+    &:active, &:hover {
+        background-color: $btn-color-hover;
+        border-color: $btn-color-hover;
+        color: $white;
+        text-decoration: none;
+    }
+    &--bg-white {
+        color: $white !important;
+        border-color: $white!important;
+        &:active, &:hover {
+            background-color: $white!important;
+            color: $btn-color!important;
+        }
+    }
 }
