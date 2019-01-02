@@ -1,0 +1,18 @@
+.list-article {
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    &__item {
+        width: calc((100% - 51px) / 3);
+        margin-right: 25px;
+        margin-bottom: 38px;
+        &:nth-child(3n) {
+            margin-right: 0;
+        }
+        h4 {
+            margin-top: 15px;
+        }
+    }
+}
