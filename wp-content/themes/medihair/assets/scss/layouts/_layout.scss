@@ -39,6 +39,13 @@ main {
   }
 }
 
+.container{
+  @media only screen and (min-width: $desktopWide) {
+        max-width: 1143px;
+  }
+  
+}
+
 .content-wrap {
     background: #fff;
     position: relative;
