@@ -11,8 +11,7 @@
     } // Dark Colors
     &--dark {
         color: $text-color;
-    }
-    // Silver Colors
+    } // Silver Colors
     &--silver {
         color: $silver;
     } // Light Colors
@@ -36,6 +35,7 @@
         background-color: $gray;
     }
 }
+// Other
 .mobile-only {
     display: none;
     @media only screen and (max-width: $mobileOnly) {
@@ -52,7 +52,37 @@
     background-position: bottom;
     background-repeat: repeat-x;
 }
-
-.read-more{
+.read-more {
     text-decoration: underline;
+}
+.back-page {
+    padding: 20px 0;
+    a {
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: relative;
+        letter-spacing: 0.5px;
+        padding-left: 15px;
+        &:hover {
+            text-decoration: underline;
+        }
+        &:before {
+            transform: rotate(90deg);
+            content: "\e902";
+            cursor: pointer;
+            font-family: 'med';
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            left: 0;
+            line-height: 1;
+            position: absolute;
+            speak: none;
+            text-transform: none;
+            top: 3px;
+            font-size: 11px;
+        }
+    }
 }
