@@ -1,0 +1,39 @@
+.thankyou-page {
+    &__content {
+        padding: 30px 0;
+    }
+    &__image {
+        padding-top: 69px;
+        padding-bottom: 69px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+         @media only screen and (max-width: $mobileOnly) {
+         	    padding: 40px 10px ;
+         }
+         @media only screen and (max-width: $mobileLandScape) {
+         	    padding: 40px 0px ;
+         }
+    }
+    &__item {
+        margin: 0px 15px;
+        width: 289px;
+        position: relative;
+        overflow: hidden;
+        max-width: calc(50% - 20px);
+        @media only screen and (max-width: $mobileOnly) {
+        	margin: 10px;
+        }
+        @media only screen and (max-width: $mobileLandScape) {
+        	max-width: calc(50% - 5px);
+         	margin: 10px 5px ;
+         	&:first-child{
+         		margin-left: 0;
+         	}
+         	&:last-child{
+         		margin-right: 0;
+         	}
+         }
+    }
+}
