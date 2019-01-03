@@ -9,6 +9,7 @@
 		width: 50%;
 		@media only screen and (max-width: $mobileOnly) {
             width: 100%;
+            margin-bottom: 30px;
         }
 	}
 	&__content{
@@ -50,6 +51,9 @@
 }
 .box-map{
 	margin-top: 60px;
+	@media only screen and (max-width: $mobileOnly) {
+		margin-top: 10px;
+	}
 	iframe{
 		filter: grayscale(100%);
 	}

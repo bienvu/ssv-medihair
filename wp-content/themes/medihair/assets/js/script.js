@@ -113,7 +113,6 @@
           breakpoint: 1024,
           settings: {
             dots: false,
-            arrows: false
           }
         }]
       });

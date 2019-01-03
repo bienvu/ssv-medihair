@@ -24,6 +24,7 @@
     letter-spacing: 1px;
     @media only screen and (max-width: $mobileOnly) {
         width: 100%;
+        margin-bottom: 20px;
     }
     &:active, &:hover {
         background-color: $btn-color-hover;
