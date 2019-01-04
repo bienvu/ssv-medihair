@@ -1,30 +1,36 @@
 .list-article {
-    &__wrap {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  &__item {
+    width: calc((100% - 51px) / 3);
+    margin-right: 25px;
+    margin-bottom: 38px;
+
+    &:nth-child(3n) {
+      @media only screen and (min-width: $tablet) {
+        margin-right: 0;
+      }
     }
-    &__item {
-        width: calc((100% - 51px) / 3);
-        margin-right: 25px;
-        margin-bottom: 38px;
-        &:nth-child(3n) {
-            @media only screen and (min-width: $tablet) {
-                margin-right: 0;
-            }
-        }
-        h4 {
-            margin-top: 15px;
-        }
-        @media only screen and (max-width: $mobileOnly) {
-            width: calc((100% - 26px) / 2);
-            &:nth-child(2n) {
-                margin-right: 0;
-            }
-        }
-        @media only screen and (max-width: $mobilePortrait) {
-            width: 100%;
-            margin-right: 0;
-        }
+
+    h4 {
+      margin-top: 15px;
     }
+
+    @media only screen and (max-width: $mobileOnly) {
+      width: calc((100% - 26px) / 2);
+      
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+    }
+
+    @media only screen and (max-width: $mobilePortrait) {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
 }

@@ -1,100 +1,122 @@
 .box-image-text {
+  position: relative;
+  padding: 0;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__image,
+  &__content {
+    width: 50%;
+  }
+
+  &__image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
-    padding: 0;
-    &__wrap {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+
+    @media only screen and (max-width: 1179px) {
+      width: 35%;
     }
-    &__image, &__content {
-        width: 50%;
+
+    @media only screen and (max-width: $mobileOnly) {
+      width: 100%;
+      order: 1;
     }
-    &__image {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        @media only screen and (max-width: 1179px) {
-            width: 35%;
-        }
-        @media only screen and (max-width: $mobileOnly) {
-            width: 100%;
-            order: 1;
-        }
-        img {
-            opacity: 0;
-        }
-        &-description{
-        	background-color: $blue;
-        	opacity: 0.9;
-            height: 100%;
-        	>div{
-        		position: absolute;
-        		top: 50%;
-        		left: 16%;
-        		transform: translateY(-50%);
-    			text-align: left;
-                @media only screen and (max-width: $mobilePortraitOnly) {
-                    left: 20px;
-                }
-        	}
-        }
-        h1{
-        	font-size: 32px;
-        	color: $white;
-        	line-height: 35px;
-        	margin-bottom: 0;
-        	&:last-child{
-        		color: #b2b1b0;
-        	}
-        }
+
+    img {
+      opacity: 0;
     }
-    &__content {
-        display: flex;
-        align-items: center;
-        @media only screen and (max-width: 1179px) {
-            width: 65%;
-            padding: 20px 0;
+
+    &-description{
+      background-color: $blue;
+      opacity: 0.9;
+      height: 100%;
+
+      >div{
+        position: absolute;
+        top: 50%;
+        left: 16%;
+        transform: translateY(-50%);
+        text-align: left;
+
+        @media only screen and (max-width: $mobilePortraitOnly) {
+          left: 20px;
         }
-        @media only screen and (max-width: $mobileOnly) {
-            width: 100%;
-            order: 2;
+      }
+    }
+
+    h1{
+      font-size: 32px;
+      color: $white;
+      line-height: 35px;
+      margin-bottom: 0;
+
+      &:last-child{
+        color: #b2b1b0;
+      }
+    }
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 1179px) {
+      width: 65%;
+      padding: 20px 0;
+    }
+
+    @media only screen and (max-width: $mobileOnly) {
+      width: 100%;
+      order: 2;
+    }
+
+    >div {
+      width: 70%;
+      margin-left: 14%;
+
+      @media only screen and (max-width: $mobilePortraitOnly) {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 20px;
+      }
+    }
+  }
+
+  &__link{
+    margin-top: 30px;
+
+    a{
+      margin-right: 15px;
+    }
+  }
+
+  &__text{
+    h2{
+      text-transform: none;
+    }
+
+    li{
+      list-style: disc;
+    }
+  }
+
+  &--bottom{
+    .box-image-text__content{
+      >div{
+        width: 60%;
+        margin-left: 16%;
+        
+        @media only screen and (max-width: $mobilePortraitOnly) {
+          width: 100%;
+          margin-left: 0;
+          padding: 0 20px;
         }
-        >div {
-            width: 70%;
-            margin-left: 14%;
-             @media only screen and (max-width: $mobilePortraitOnly) {
-                    width: 100%;
-                    margin-left: 0;
-                    padding: 0 20px;
-                }
-        }
+      }
     }
-    &__link{
-    	margin-top: 30px;
-    	a{
-    		margin-right: 15px;
-    	}
-    }
-    &__text{
-    	h2{
-    		text-transform: none;
-    	}
-        li{
-            list-style: disc;
-        }
-    }
-    &--bottom{
-    	.box-image-text__content{
-    		>div{
-    			width: 60%;
-    			margin-left: 16%;
-                 @media only screen and (max-width: $mobilePortraitOnly) {
-                    width: 100%;
-                    margin-left: 0;
-                    padding: 0 20px;
-                }
-    		}
-    	}
-    }
+  }
 }
