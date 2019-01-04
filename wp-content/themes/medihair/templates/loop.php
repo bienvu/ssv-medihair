@@ -18,11 +18,11 @@
 
 			<!-- post details -->
 			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-			<!-- <span class="author"><?php _e( 'Published by', 'ssvtheme' ); ?> <?php the_author_posts_link(); ?></span> -->
-			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'ssvtheme' ), __( '1 Comment', 'ssvtheme' ), __( '% Comments', 'ssvtheme' )); ?></span>
+			<!-- <span class="author"><?php _e( 'Published by', 'medihairtheme' ); ?> <?php the_author_posts_link(); ?></span> -->
+			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'medihairtheme' ), __( '1 Comment', 'medihairtheme' ), __( '% Comments', 'medihairtheme' )); ?></span>
 			<!-- /post details -->
 
-			<?php ssv_excerpt('ssv_index'); // Build your custom callback length in functions.php ?>
+			<?php medihair_excerpt('medihair_index'); // Build your custom callback length in functions.php ?>
 	</article>
 	<!-- /article -->
 
@@ -32,7 +32,7 @@
 
 	<!-- article -->
 	<article>
-		<h3><?php _e( 'Sorry, nothing to display.', 'ssvtheme' ); ?></h3>
+		<h3><?php _e( 'Sorry, nothing to display.', 'medihairtheme' ); ?></h3>
 	</article>
 	<!-- /article -->
 
