@@ -96,10 +96,12 @@
     padding: 0 30px;
     color: $white;
     text-transform: uppercase;
+
     span{
         font-size: 13px;
         letter-spacing: -0.3px;
     }
+
     h3{
         margin-bottom: 8px;
         line-height: 20px; 
@@ -107,7 +109,7 @@
     
   }
   &__subcontent{
-     position: absolute;
+    position: absolute;
     top: 45%;
     width: 100%;
     transform: translateY(-50%);
@@ -115,10 +117,12 @@
     padding: 0 110px;
     color: $white;
     text-transform: uppercase;
+
     h1{
         line-height: 38px;
         margin-bottom: 32px;
     }
+    
     .btn {
       @extend .btn--bg-white;
       // @extend .btn--large;
