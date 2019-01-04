@@ -39,3 +39,15 @@
     background-color: $white;
   }
 }
+
+.mobile-only{
+  display: none;
+  @media only screen and (max-width: $mobileOnly) {
+    display: block;
+  }
+}
+.desktop-only{
+  @media only screen and (max-width: $mobileOnly) {
+    display: none;
+  }
+}
