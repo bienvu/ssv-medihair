@@ -39,12 +39,12 @@
 .mobile-only {
     display: none;
     @media only screen and (max-width: $mobileOnly) {
-        display: block;
+        display: block !important;
     }
 }
 .desktop-only {
     @media only screen and (max-width: $mobileOnly) {
-        display: none;
+        display: none !important;
     }
 }
 .how-it-works {

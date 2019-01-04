@@ -5,6 +5,7 @@
   &__wrap {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   &__image,
@@ -18,6 +19,15 @@
     background-repeat: no-repeat;
     position: relative;
 
+    @media only screen and (max-width: 1179px) {
+      width: 35%;
+    }
+
+    @media only screen and (max-width: $mobileOnly) {
+      width: 100%;
+      order: 1;
+    }
+
     img {
       opacity: 0;
     }
@@ -25,6 +35,7 @@
     &-description{
       background-color: $blue;
       opacity: 0.9;
+      height: 100%;
 
       >div{
         position: absolute;
@@ -32,6 +43,10 @@
         left: 16%;
         transform: translateY(-50%);
         text-align: left;
+
+        @media only screen and (max-width: $mobilePortraitOnly) {
+          left: 20px;
+        }
       }
     }
 
@@ -46,40 +61,61 @@
       }
     }
   }
-
   &__content {
     display: flex;
     align-items: center;
 
-    > div {
+    @media only screen and (max-width: 1179px) {
+      width: 65%;
+      padding: 20px 0;
+    }
+
+    @media only screen and (max-width: $mobileOnly) {
+      width: 100%;
+      order: 2;
+    }
+
+    >div {
       width: 70%;
       margin-left: 14%;
+
+      @media only screen and (max-width: $mobilePortraitOnly) {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 20px;
+      }
     }
   }
 
   &__link{
     margin-top: 30px;
 
-    a {
+    a{
       margin-right: 15px;
     }
   }
 
   &__text{
-    h2 {
+    h2{
       text-transform: none;
     }
 
-    li {
+    li{
       list-style: disc;
     }
   }
 
   &--bottom{
     .box-image-text__content{
-      > div{
+      >div{
         width: 60%;
         margin-left: 16%;
+        
+        @media only screen and (max-width: $mobilePortraitOnly) {
+          width: 100%;
+          margin-left: 0;
+          padding: 0 20px;
+        }
       }
     }
   }

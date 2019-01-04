@@ -119,6 +119,12 @@
     color: $white;
     text-transform: uppercase;
 
+    @media only screen and (max-width: $mobileOnly) {
+      top: 70%;
+      padding: 0 30px;
+      text-align: center;
+    }
+
     h1{
       line-height: 38px;
       margin-bottom: 32px;
@@ -143,6 +149,10 @@
       height: calc(100vh - 90px);
     }
 
+    @media only screen and (max-width: $mobileOnly) {
+      height: calc(80vh - 65px);
+    }
+    
     .banner__title {
       // @extend %bg-shadown;
     }
