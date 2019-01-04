@@ -31,7 +31,7 @@
         align-items: center;
 
         >a {
-          padding: 15px 0!important;
+          padding: 15px 0;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -164,7 +164,7 @@
   }
 }
 
-&.book-link {
+.book-link {
   margin-right: 0;
 
   a {
