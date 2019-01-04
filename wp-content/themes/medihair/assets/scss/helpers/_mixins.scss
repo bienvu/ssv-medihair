@@ -38,6 +38,10 @@
   font-family: "gotham", sans-serif;
 }
 
+@mixin med {
+  font-family: "med", Helvetica, Arial, sans-serif;
+}
+
 
 //Single image background with retina support
 //USAGE:  @include background-image-retina('preloader', 'GIF', rem(20px), rem(20px));

@@ -2,12 +2,6 @@ button,
 input[type='submit'] {
   @extend .btn;
 }
-.btn{
-  &--white{
-    color: $white;
-    border-color: $white;
-  }
-}
 
 %form-text {
   @include gotham;
@@ -127,7 +121,7 @@ textarea {
 
 .form-item,
 .form-actions {
-  margin:rem(0 0 26px);
+  margin:rem(0 0 12px);
 
   &.form-type-checkbox,
   &.form-type-radio {

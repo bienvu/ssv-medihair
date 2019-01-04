@@ -3,8 +3,11 @@
 // Icon Font
 @include font-face('med', 'fonts/med');
 
-// Gothambook Font
+// GothamBook Font
 @include font-face('gotham', 'fonts/Gotham-Book', 700);
+
+// GothamBold
+@include font-face('gotham', 'fonts/Gotham-Bold', 600);
 
 // GothamLight
 @include font-face('gotham', 'fonts/Gotham-Light', 400);
