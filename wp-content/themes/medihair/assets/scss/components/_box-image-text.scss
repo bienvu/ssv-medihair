@@ -1,67 +1,81 @@
 .box-image-text {
-    position: relative;
-    padding: 0;
-    &__wrap {
-        display: flex;
-        justify-content: space-between;
-    }
-    &__image, &__content {
-        width: 50%;
-    }
-    &__image {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        img {
-            opacity: 0;
-        }
-        &-description{
-        	background-color: $blue;
-        	opacity: 0.9;
-        	>div{
-        		position: absolute;
-        		top: 50%;
-        		left: 16%;
-        		transform: translateY(-50%);
-    			text-align: left;
-        	}
-        }
-        h1{
-        	font-size: 32px;
-        	color: $white;
-        	line-height: 35px;
-        	margin-bottom: 0;
-        	&:last-child{
-        		color: #b2b1b0;
-        	}
-        }
-    }
-    &__content {
-        display: flex;
-        align-items: center;
-        >div {
-            width: 70%;
-            margin-left: 14%;
-        }
-    }
-    &__link{
-    	margin-top: 30px;
-    	a{
-    		margin-right: 15px;
-    	}
-    }
-    &__text{
-    	h2{
-    		text-transform: none;
-    	}
-    }
-    &--bottom{
-    	.box-image-text__content{
-    		>div{
-    			width: 60%;
-    			margin-left: 16%;
-    		}
-    	}
-    }
+  position: relative;
+  padding: 0;
+
+  &__wrap {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  &__image, &__content {
+      width: 50%;
+  }
+
+  &__image {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+
+      img {
+          opacity: 0;
+      }
+
+      &-description{
+      	background-color: $blue;
+      	opacity: 0.9;
+
+      	>div{
+      		position: absolute;
+      		top: 50%;
+      		left: 16%;
+      		transform: translateY(-50%);
+  			  text-align: left;
+      	}
+      }
+
+      h1{
+      	font-size: 32px;
+      	color: $white;
+      	line-height: 35px;
+      	margin-bottom: 0;
+
+      	&:last-child{
+      		color: #b2b1b0;
+      	}
+      }
+  }
+
+  &__content {
+      display: flex;
+      align-items: center;
+
+      >div {
+        width: 70%;
+        margin-left: 14%;
+      }
+  }
+
+  &__link{
+  	margin-top: 30px;
+    
+  	a{
+  		margin-right: 15px;
+  	}
+  }
+
+  &__text{
+  	h2{
+  		text-transform: none;
+  	}
+  }
+
+  &--bottom{
+  	.box-image-text__content{
+  		>div{
+  			width: 60%;
+  			margin-left: 16%;
+  		}
+  	}
+  }
 }
