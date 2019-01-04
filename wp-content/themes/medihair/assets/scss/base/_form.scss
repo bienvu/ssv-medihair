@@ -115,8 +115,8 @@ input[type=number] {
 textarea {
   @extend %form-text;
   height: auto;
-  min-height: rem(200px);
-  padding: rem(15px 25px);
+  min-height: rem(107px);
+  padding: rem(10px 20px);
 }
 
 .form-item,
@@ -143,11 +143,12 @@ textarea {
 }
 
 select {
+  width: 100%;
   outline: none;
   box-shadow: none;
-  padding: 13px 38px 16px 16px;
-  font-size: 12px;
-  text-align-last: center;
+  padding: 12px 20px;
+  font-size: 14px;
+  text-align-last: left;
   color: $text-color;
   background: url('data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMjQiIGhlaWdodD0iMTAyNCIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCI+Cjx0aXRsZT48L3RpdGxlPgo8ZyBpZD0iaWNvbW9vbi1pZ25vcmUiPgo8L2c+CjxwYXRoIGZpbGw9IiMwMDAiIGQ9Ik01MTIgNjkyLjIyNHYwbC0zOTEuMTY4LTM5MS4xNjgtNTEuMiA1MS4yIDQ0Mi4zNjggNDQyLjM2OCA0NDIuMzY4LTQ0Mi4zNjgtNTEuMi01MS4yeiI+PC9wYXRoPgo8L3N2Zz4K') no-repeat scroll center right $gray;
   background-size: 14px auto;
@@ -166,7 +167,7 @@ select {
 
   option {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0;
     color: $blue;
   }

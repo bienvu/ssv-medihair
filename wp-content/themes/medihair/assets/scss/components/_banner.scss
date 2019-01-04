@@ -56,6 +56,7 @@
 
     img {
       height: 100%;
+      opacity: 0;
       width: auto;
       position: absolute;
       max-width: initial;
@@ -126,6 +127,7 @@
     .btn {
       @extend .btn--bg-white;
       padding: 12px 35px;
+      width: auto;
     }
   }
 
@@ -163,7 +165,7 @@
         height: 100%;
         width: auto;
         max-width: initial;
-        opacity: 0;
+
 
         @media only screen and (min-width: 1440px) {
           height: auto;

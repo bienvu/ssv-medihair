@@ -1,0 +1,147 @@
+.grid-image {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+
+  &__wrap {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 5px;
+  }
+
+  &__item {
+      margin: 0;
+      width: 50%;
+      padding: 0 15px;
+      margin-bottom: 26px;
+  }
+
+  &__link {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0 10px 0 50px;
+    line-height: 1.7143;
+    display: inline-block;
+    text-align: left;
+    z-index: 4;
+    opacity: 0;
+    visibility: hidden;
+
+    &:hover {
+      pointer-events: none;
+    }
+
+    a {
+      margin-top: 37px;
+
+      &:hover {
+        background-color: transparent !important;
+        color: #fff !important;
+      }
+    }
+
+    h3 {
+      line-height: 22px;
+    }
+
+    @media only screen and (min-width: $desktop) {
+      
+    }
+  }
+  
+  &__content {
+    position: relative;
+
+    &:hover {
+      cursor: pointer;
+
+      >a:before {
+        transition: .5s;
+        opacity: 1;
+      }
+
+      .grid-image__link {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    >a {
+      line-height: 0;
+      display: block;
+      position: relative;
+      overflow: hidden;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba($blue, .9);
+        z-index: 3;
+        transition: .5s;
+          opacity: 0;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &--4col {
+    .grid-image__wrap {
+      margin: 0;
+    }
+
+    .grid-image__item {
+      width: 25%;
+      padding: 0;
+      margin: 0;
+
+      @media only screen and (max-width: $mobileOnly) {
+        width: 50%;
+      }
+    }
+    .grid-image__content {
+      a {
+        text-decoration: none;
+      }
+    }
+    .grid-image__link{
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0;
+
+      a{
+        margin-top: 0;
+      }
+    }
+    &__content {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: left;
+      padding: 0 23px;
+      color: #fff;
+      text-transform: uppercase;
+
+      span {
+        font-size: 13px;
+        letter-spacing: -0.3px;
+        line-height: 24px;
+      }
+
+      h3 {
+        margin-bottom: 21px;
+        line-height: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.box-faq {
+  &__item {
+    @media only screen and (max-width: $mobileOnly) {
+      border-bottom: solid 1px #ccc;
+      padding: 12px 0 10px;
+      position: relative;
+
+      &:before {
+        content: "\e902";
+        font-family: 'med';
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1;
+        speak: none;
+        text-transform: none;
+        position: absolute;
+        top: 16px;
+        cursor: pointer;
+        right: 4px;
+      }
+
+      &.expanded{
+        &:before{
+          transform: rotate(-180deg);
+        }
+      }
+    }
+  }
+  
+  &__answer {
+    @media only screen and (max-width: $mobileOnly) {
+      display: none;
+    }
+  }
+}
