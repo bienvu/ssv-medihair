@@ -21,15 +21,18 @@
   cursor: pointer;
   outline: 0;
   font-weight: 700;
+  letter-spacing: 1.3px;
+
 
   &:active,
   &:hover {
     background-color: $btn-color-hover;
     border-color: $btn-color-hover;
     color: $white;
+    text-decoration: none;
   }
 
-  &--white{
+  &--bg-white{
     color: $white !important;
     border-color: $white!important;
 

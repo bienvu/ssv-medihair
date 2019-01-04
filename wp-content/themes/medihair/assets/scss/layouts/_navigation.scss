@@ -31,7 +31,7 @@
         align-items: center;
 
         >a {
-          padding: 15px 0!important;
+          padding: 15px 0;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -62,22 +62,6 @@
 
         &:nth-last-child(2) {
           border-bottom: none;
-        }
-      }
-
-      &.book-link {
-        margin-right: 0;
-
-        a {
-          @extend .btn;
-          @extend .btn--white;
-          padding: 12px 16px !important;
-          font-weight: 600;
-          letter-spacing: 0.3px;
-
-          &:before {
-            display: none;
-          }
         }
       }
     }
@@ -125,7 +109,7 @@
             transition: .3s;
 
             @media only screen and (max-width: 1179px) {
-            	top: -3px;
+              top: -3px;
             }
           }
         }
@@ -176,6 +160,22 @@
           display: block;
         }
       }
+    }
+  }
+}
+
+.book-link {
+  margin-right: 0;
+
+  a {
+    @extend .btn;
+    @extend .btn--bg-white;
+    padding: 12px 16px !important;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+
+    &:before {
+      display: none;
     }
   }
 }

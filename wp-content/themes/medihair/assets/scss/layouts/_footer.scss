@@ -7,6 +7,7 @@
       padding: 20px 0;
     }
   }
+  
   &__bottom {
     &--copyright {
       text-align: center;
@@ -15,6 +16,7 @@
       padding: 15px 0;
     }
   }
+
   &__wrap {
     display: flex;
     justify-content: space-between;
@@ -107,7 +109,7 @@
       .book-link {
         a {
           @extend .btn;
-          @extend .btn--white;
+          @extend .btn--bg-white;
           text-decoration: none;
           font-weight: 600;
           letter-spacing: 1px;
@@ -118,6 +120,7 @@
           }
         }
       }
+
       li {
         margin-bottom: 18px;
       }
@@ -143,11 +146,13 @@
           }
         }
       }
+
       &--form {
         margin-bottom: 0;
         width: 22%;
         padding: 0 0 0 8px;
       }
+
       &--address {
         width: 28%;
         padding: 0 17px 0 0;
