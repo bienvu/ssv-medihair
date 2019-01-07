@@ -1,88 +1,116 @@
 // Texts
 .text {
-    &--center {
-        text-align: center;
+  &--center {
+    text-align: center;
+  }
+  &--left {
+    text-align: left;
+  }
+  &--right {
+    text-align: right;
+  } // Dark Colors
+  &--dark {
+    color: $text-color;
+  } // Silver Colors
+  &--silver {
+    color: $silver;
+  } // Light Colors
+  &--white {
+    color: $white;
+
+    a {
+        @extend %link--white;
     }
-    &--left {
-        text-align: left;
-    }
-    &--right {
-        text-align: right;
-    } // Dark Colors
-    &--dark {
-        color: $text-color;
-    } // Silver Colors
-    &--silver {
-        color: $silver;
-    } // Light Colors
-    &--white {
-        color: $white;
-        a {
-            @extend %link--white;
-        }
-    }
+  }
 }
 // Backgrounds
 .bg {
-    // Dark backgrounds
-    &--primary {
-        background-color: $primary-color;
-    } // Light backgrounds
-    &--white {
-        background-color: $white;
-    }
-    &--gray {
-        background-color: $gray;
-    }
+  // Dark backgrounds
+  &--primary {
+    background-color: $primary-color;
+  } 
+
+  // Light backgrounds
+  &--white {
+    background-color: $white;
+  }
+
+  &--gray {
+    background-color: $gray;
+  }
 }
 // Other
 .mobile-only {
-    display: none;
-    @media only screen and (max-width: $mobileOnly) {
-        display: block !important;
-    }
+  display: none;
+
+  @media only screen and (max-width: $mobileOnly) {
+    display: block !important;
+  }
 }
+
 .desktop-only {
-    @media only screen and (max-width: $mobileOnly) {
-        display: none !important;
-    }
+  @media only screen and (max-width: $mobileOnly) {
+    display: none !important;
+  }
 }
+
 .how-it-works {
-    background-image: url('/images/bg-grid-image.png');
-    background-position: bottom;
-    background-repeat: repeat-x;
+  background-image: url('/images/bg-grid-image.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
 }
+
 .read-more {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 .back-page {
-    padding: 20px 0;
-    a {
-        font-size: 13px;
-        font-weight: 700;
-        text-decoration: none;
-        text-transform: uppercase;
-        position: relative;
-        letter-spacing: 0.5px;
-        padding-left: 15px;
-        &:hover {
-            text-decoration: underline;
-        }
-        &:before {
-            transform: rotate(90deg);
-            content: "\e902";
-            cursor: pointer;
-            font-family: 'med';
-            font-style: normal;
-            font-variant: normal;
-            font-weight: normal;
-            left: 0;
-            line-height: 1;
-            position: absolute;
-            speak: none;
-            text-transform: none;
-            top: 3px;
-            font-size: 11px;
-        }
+  padding: 20px 0;
+  a {
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+
+    &:hover {
+      text-decoration: underline;
     }
+
+    &:before {
+      transform: rotate(90deg);
+      content: "\e902";
+      cursor: pointer;
+      font-family: 'med';
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      left: 0;
+      line-height: 1;
+      position: absolute;
+      speak: none;
+      text-transform: none;
+      top: 3px;
+      font-size: 11px;
+    }
+  }
+}
+
+.book-link {
+  margin-right: 0 !important;
+
+  a {
+    @extend .btn;
+    @extend .btn--bg-white;
+    padding: 12px 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-width: 202px;
+
+    &:before {
+      display: none;
+    }
+  }
 }

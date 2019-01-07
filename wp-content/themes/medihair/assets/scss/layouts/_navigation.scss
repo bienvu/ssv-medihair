@@ -163,19 +163,3 @@
     }
   }
 }
-
-.book-link {
-  margin-right: 0;
-
-  a {
-    @extend .btn;
-    @extend .btn--bg-white;
-    padding: 12px 16px !important;
-    font-weight: 600;
-    letter-spacing: 0.3px;
-
-    &:before {
-      display: none;
-    }
-  }
-}

@@ -65,6 +65,7 @@
       }
 
       .grid-image__link {
+        @extend .text--white;
         opacity: 1;
         visibility: visible;
       }
@@ -96,6 +97,8 @@
   }
 
   &--4col {
+    @extend .text--white;
+
     .grid-image__wrap {
       margin: 0;
     }
