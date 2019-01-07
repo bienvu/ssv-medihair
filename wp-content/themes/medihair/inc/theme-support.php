@@ -26,21 +26,21 @@ if (function_exists('add_theme_support')) {
 }
 
 // Allow SVG through WordPress Media Uploader
-function ssv_mime_types($mimes) {
+function medihair_mime_types($mimes) {
   $mimes['svg'] = 'image/svg+xml';
   return $mimes;
 }
-add_filter('upload_mimes', 'ssv_mime_types');
+add_filter('upload_mimes', 'medihair_mime_types');
 
 // Register sentius Blank Navigation
-function ssv_register_menu()
+function medihair_register_menu()
 {
   register_nav_menus(array( // Using array to specify more menus if needed
-    'header-menu' => __('Header Menu', 'ssvtheme'), // Main Navigation
-    'sidebar-menu' => __('Sidebar Menu', 'ssvtheme'), // Sidebar Navigation
-    'extra-menu' => __('Extra Menu', 'ssvtheme') // Extra Navigation if needed (duplicate as many as you need!)
+    'header-menu' => __('Header Menu', 'medihairtheme'), // Main Navigation
+    'sidebar-menu' => __('Sidebar Menu', 'medihairtheme'), // Sidebar Navigation
+    'extra-menu' => __('Extra Menu', 'medihairtheme') // Extra Navigation if needed (duplicate as many as you need!)
   ));
 }
-add_action('init', 'ssv_register_menu');
+add_action('init', 'medihair_register_menu');
 
 ?>
