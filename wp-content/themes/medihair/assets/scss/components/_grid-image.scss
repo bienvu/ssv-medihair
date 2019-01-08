@@ -3,10 +3,16 @@
   position: relative;
   z-index: 2;
 
+  .section-title {
+    @extend .text--center;
+    margin: 45px 0;
+    color: $blue;
+  }
+
   &__wrap {
       display: flex;
       flex-wrap: wrap;
-      margin: 0 5px;
+      margin: 0;
   }
 
   &__item {
@@ -99,6 +105,12 @@
   &--4col {
     @extend .text--white;
 
+    .section-title {
+      h2{
+        margin-bottom: 18px;
+      }
+    }
+
     .grid-image__wrap {
       margin: 0;
     }
@@ -152,6 +164,16 @@
   }
 
   &--2col{
+    .grid-image__item {
+      &:nth-child(odd){
+        padding-left: 0;
+      }
+
+      &:nth-child(even) {
+        padding-right: 0;
+      }
+    }
+
     @media only screen and (max-width: $mobileOnly) {
       .container {
         margin: 0;
