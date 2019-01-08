@@ -54,6 +54,14 @@
   }
 }
 
+.section-title{
+  @extend .text--center;
+
+  h2{
+    margin-bottom: 18px;
+  }
+}
+
 .how-it-works {
   background-image: url('/images/bg-grid-image.png');
   background-position: bottom;
