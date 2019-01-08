@@ -137,15 +137,17 @@
 
     // FAQ
     $('.box-faq__item').click(function () {
-      if( !$(this).hasClass('expanded')) {
-        $('.box-faq__item').not(this).find('.box-faq__answer').hide();
-        $(this).find('.box-faq__answer').slideToggle();
-        $(this).addClass('expanded');
-        $('.box-faq__item').not(this).removeClass('expanded');
-      } else {
-        $('.box-faq__item').not(this).find('.box-faq__answer').hide();
-        $(this).removeClass('expanded');
-        $(this).find('.box-faq__answer').slideToggle();
+      if($(window).width() < 768) {
+        if( !$(this).hasClass('expanded')) {
+          $('.box-faq__item').not(this).find('.box-faq__answer').hide();
+          $(this).find('.box-faq__answer').slideToggle();
+          $(this).addClass('expanded');
+          $('.box-faq__item').not(this).removeClass('expanded');
+        } else {
+          $('.box-faq__item').not(this).find('.box-faq__answer').hide();
+          $(this).removeClass('expanded');
+          $(this).find('.box-faq__answer').slideToggle();
+        }
       }
     });
   });
