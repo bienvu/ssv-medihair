@@ -3,9 +3,9 @@ if( get_row_layout() == 'list_member' ): ?>
   <div class="list-member">
   <div class="container">
     <div class="list-member__wrap">
-      <?php if( have_rows('grid_image_item') ):
+      <?php if( have_rows('list_member_item') ):
         // loop through the rows of data
-        while ( have_rows('grid_image_item') ) : the_row(); 
+        while ( have_rows('list_member_item') ) : the_row(); 
           // Variable
           $image = get_sub_field('image');
           $title = get_sub_field('title');
