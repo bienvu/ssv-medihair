@@ -106,21 +106,6 @@
     }
 
     &--address {
-      .book-link {
-        a {
-          @extend .btn;
-          @extend .btn--bg-white;
-          text-decoration: none;
-          font-weight: 600;
-          letter-spacing: 1px;
-          padding: 12px 16px !important;
-
-          &:before {
-            display: none;
-          }
-        }
-      }
-
       li {
         margin-bottom: 18px;
       }
