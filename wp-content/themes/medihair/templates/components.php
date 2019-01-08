@@ -3,6 +3,7 @@
 if( have_rows('component') ):
      // loop through the rows of data
   while ( have_rows('component') ) : the_row();
+
     // Banner
     get_template_part('templates/components/banner');
 
