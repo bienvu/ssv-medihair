@@ -28,5 +28,9 @@ if( have_rows('component') ):
     // box results
     get_template_part('templates/components/box-results');
 
+    // box form
+    get_template_part('templates/components/box-form');
+
   endwhile;
 endif;?>
+</div>

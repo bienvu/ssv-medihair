@@ -40,4 +40,6 @@ if( get_row_layout() == 'banner' ):
       <i class="icon-arrow-bottom js-scroll-down"></i>
     </div>
   </div>
+
+  <div class="content-wrap">
 <?php endif;?>
