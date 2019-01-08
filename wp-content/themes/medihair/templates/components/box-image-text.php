@@ -13,11 +13,11 @@ if( get_row_layout() == 'box_image_text' ):
     <div class="box-image-text__wrap">
       <?php if( $image ): ?>
         <div class="box-image-text__image" style="background-image: url(<?php print $image['url']; ?>); opacity: 1;">
-          <?php if( $type == 'box-image-text--top' ): ?>
+          <?php if( $type == 'box-image-text--with-title' ): ?>
             <div class="box-image-text__image-description">
           <?php endif; ?>    
           <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
-          <?php if( $type == 'box-image-text--top' ): ?>
+          <?php if( $type == 'box-image-text--with-title' ): ?>
               <div>
                 <?php print $title; ?>
               </div>

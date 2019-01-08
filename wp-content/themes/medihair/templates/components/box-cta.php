@@ -1,5 +1,5 @@
 <?php
-if( get_row_layout() == 'box_text' ):
+if( get_row_layout() == 'call_to_action' ):
   $title = get_sub_field('title');
   $body = get_sub_field('body');
   $link = get_sub_field('link'); ?>
