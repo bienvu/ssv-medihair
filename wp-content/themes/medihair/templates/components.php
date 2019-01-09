@@ -31,6 +31,12 @@ if( have_rows('component') ):
     // box form
     get_template_part('templates/components/box-form');
 
+    // box faq
+    get_template_part('templates/components/faq');
+
+    // box link
+    get_template_part('templates/components/box-link');
+
   endwhile;
 endif;?>
 </div>
