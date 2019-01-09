@@ -29,23 +29,29 @@ if( get_row_layout() == 'grid_image' ):
               $content = get_sub_field('content');
               $link = get_sub_field('link'); ?>
 
-              <div class="grid-image__item">
+              <div class="grid-image__item <?php if( !$image ){echo 'grid-image__item--no-image';} ?>">
                 <div class="grid-image__content">
-                  <a href="<?php echo $link['url']; ?>">
-                    <?php echo wp_get_attachment_image( $image['ID'], 'full' ); ?>
+                  
+                  <a href="<?php if( $link ){echo  $link['url'];} else{echo '#';} ?>">
+                    <?php if( $image ): ?>
+                      <?php echo wp_get_attachment_image( $image['ID'], 'full' ); ?>
+                    <?php endif; ?> 
                     <?php if($type=='grid-image--4col'): ?>
                       <div class="grid-image--4col__content">
                         <?php echo $content; ?>
                       </div>  
                     <?php endif; ?> 
                   </a>
+                  
                   <div class="grid-image__link">
                     <?php if($type=='grid-image--2col'): ?>
                       <div class="grid-image__body">
                         <?php echo $content; ?>
                       </div>
                     <?php endif; ?>
+                    <?php if( $link ): ?>
                     <a class="btn btn--bg-white" href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo $link['title']; ?></a>
+                    <?php endif; ?>
                   </div>
                 </div>
               </div>

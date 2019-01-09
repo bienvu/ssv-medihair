@@ -1,0 +1,13 @@
+.box-link {
+  margin: 40px 0;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+    a {
+      margin: 0 15px;
+    }
+  }
+}

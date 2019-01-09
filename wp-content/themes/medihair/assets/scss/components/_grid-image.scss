@@ -9,16 +9,33 @@
   }
 
   &__wrap {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
   }
 
   &__item {
-      margin: 0;
-      width: 50%;
-      padding: 0 15px;
-      margin-bottom: 26px;
+    margin: 0;
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 26px;
+
+    &.grid-image__item--no-image {
+      .grid-image__content {
+        background-color: $blue;
+      }
+
+      .grid-image__link {
+        @extend .text--white;
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+        transform: translateY(0);
+        padding-top: 60px;
+        padding-bottom: 45px;
+      }
+    }
   }
 
   &__link {

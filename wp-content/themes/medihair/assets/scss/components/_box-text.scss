@@ -4,4 +4,15 @@
   &__link {
     margin-top: 38px;
   }
+
+  ul {
+    li {
+      list-style-type: disc;
+      margin-bottom: 17px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
 }

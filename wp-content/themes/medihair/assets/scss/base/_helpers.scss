@@ -63,9 +63,10 @@
 }
 
 .how-it-works {
-  background-image: url('/images/bg-grid-image.png');
+  background-image: url('../images/bg-grid-image.png');
   background-position: bottom;
   background-repeat: repeat-x;
+  padding-bottom: 35px;
 }
 
 .read-more {
@@ -120,15 +121,5 @@
     &:before {
       display: none;
     }
-  }
-}
-
-.multiLink {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0;
-
-  a {
-    margin: 0 15px;
   }
 }
