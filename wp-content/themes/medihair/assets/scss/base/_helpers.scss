@@ -113,9 +113,9 @@
   a {
     @extend .btn;
     @extend .btn--bg-white;
-    padding: 12px 16px;
+    padding: 12px 16px !important;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 1px !important;
     min-width: 202px;
 
     &:before {

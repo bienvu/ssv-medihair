@@ -2,6 +2,7 @@
   text-align: center;
   position: relative;
   z-index: 2;
+  padding: 10px 0 35px;
 
   .section-title {
     margin: 45px 0;
@@ -45,7 +46,7 @@
     transform: translateY(-50%);
     margin-top: 0;
     margin-left: 0;
-    padding: 0 10px 0 50px;
+    padding: 0 50px;
     line-height: 1.7143;
     display: inline-block;
     text-align: left;
@@ -120,6 +121,7 @@
 
   &--4col {
     @extend .text--white;
+    padding-bottom: 0;
 
     .grid-image__wrap {
       margin: 0;
@@ -160,10 +162,11 @@
       color: #fff;
       text-transform: uppercase;
 
-      span {
+      span,p {
         font-size: 13px;
         letter-spacing: -0.3px;
         line-height: 24px;
+        margin-bottom: 0;
       }
 
       h3 {

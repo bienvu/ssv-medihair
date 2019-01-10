@@ -87,22 +87,27 @@
     }
   }
 
-  &__link{
-    margin-top: 30px;
+  &__link {
+    margin-top: 35px;
+    margin-bottom: 25px;
 
     a{
       margin-right: 15px;
     }
   }
 
-  &__text{
-    h2{
+  &__text {
+    h2 {
       text-transform: none;
       margin-bottom: 18px;
     }
 
-    li{
-      list-style: disc;
+    ul {
+      margin-bottom: 20px;
+
+      li{
+        list-style: disc;
+      }
     }
   }
 
