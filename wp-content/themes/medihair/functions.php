@@ -183,6 +183,16 @@ function medihair_excerpt_length($length) {
 }
 
 
+/* Pagination 404 page */
+function medihair_remove_page_from_query_string($query_string)
+{ 
+    if ($query_string['name'] == 'page' && isset($query_string['page'])) {
+        unset($query_string['name']);
+        $query_string['paged'] = $query_string['page'];
+    }      
+    return $query_string;
+}
+
 
 /*------------------------------------*\
   Actions + Filters + ShortCodes
@@ -225,6 +235,7 @@ add_filter('the_excerpt', 'do_shortcode'); // Allows Shortcodes to be executed i
 add_filter('style_loader_tag', 'medihair_style_remove'); // Remove 'text/css' from enqueued stylesheet
 add_filter( 'excerpt_more', 'medihair_excerpt_more' );
 add_filter( 'excerpt_length', 'medihair_excerpt_length' );
+add_filter('request', 'medihair_remove_page_from_query_string');
 // add_filter('post_thumbnail_html', 'medihair_remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
 // add_filter('image_send_to_editor', 'medihair_remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to post images
 // Remove Filters
