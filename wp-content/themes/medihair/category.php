@@ -31,6 +31,7 @@
 		   	endif; ?>
 		   	</div> 	
 		   	<?php get_template_part('templates/pagination'); ?>
-			    
+      </div>  
+		</div>    
 	</main>
 <?php get_footer(); ?>
