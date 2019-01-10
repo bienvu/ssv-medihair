@@ -159,6 +159,31 @@ function medihair_remove_thumbnail_dimensions( $html )
   return $html;
 }
 
+/**
+ * Filter the "read more" excerpt string link to the post.
+ *
+ * @param string $more "Read more" excerpt string.
+ * @return string (Maybe) modified "read more" excerpt string.
+ */
+function medihair_excerpt_more( $more ) {
+  if ( ! is_single() ) {
+      $more = sprintf( ' ... <a class="read-more" href="%1$s">%2$s</a>',
+          get_permalink( get_the_ID() ),
+          __( 'Read More', 'Medihair' )
+      );
+  }
+
+  return $more;
+}
+
+/* Modify the read more link on the_excerpt() */
+
+function medihair_excerpt_length($length) {
+    return 15;
+}
+
+
+
 /*------------------------------------*\
   Actions + Filters + ShortCodes
 \*------------------------------------*/
@@ -198,9 +223,13 @@ add_filter( 'walker_nav_menu_start_el', 'medihair_add_arrow',10,4);
 add_filter('the_excerpt', 'shortcode_unautop'); // Remove auto <p> tags in Excerpt (Manual Excerpts only)
 add_filter('the_excerpt', 'do_shortcode'); // Allows Shortcodes to be executed in Excerpt (Manual Excerpts only)
 add_filter('style_loader_tag', 'medihair_style_remove'); // Remove 'text/css' from enqueued stylesheet
+add_filter( 'excerpt_more', 'medihair_excerpt_more' );
+add_filter( 'excerpt_length', 'medihair_excerpt_length' );
 // add_filter('post_thumbnail_html', 'medihair_remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
 // add_filter('image_send_to_editor', 'medihair_remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to post images
 // Remove Filters
 remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altogether
+
+
 
 ?>
