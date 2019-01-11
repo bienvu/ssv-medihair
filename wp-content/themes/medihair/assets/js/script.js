@@ -159,14 +159,12 @@
     $('.js-show-more').on('click', function (e) {
       e.preventDefault();
 
-      if(!$('.list-member__content').hasClass('is-show')) {
+      if(!$(this).parents('.list-member__content').hasClass('is-show')) {
         $(this).parents('.list-member__content').addClass('is-show');
         $(this).hide();
-        $('.read-more-wrap .js-show-more').show();
       } else {
         $(this).parents('.list-member__content').removeClass('is-show');
-        $('.js-show-more').show();
-        $(this).hide();
+        $(this).parents('.list-member__content').find('.js-show-more').show();
       }
     });
 
