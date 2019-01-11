@@ -48,9 +48,27 @@
         margin-bottom:20px;
       }
     } 
+
+    &--hide {
+      display: none;
+    }
+    &.is-show {
+      .list-member__content--hide {
+        display: block;
+      }
+
+      .list-member__content--show {
+        &.readMore {
+          ul {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
   }
 
   li{
     list-style: disc;
   }
 }
+

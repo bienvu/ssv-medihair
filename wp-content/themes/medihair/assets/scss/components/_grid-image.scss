@@ -194,7 +194,6 @@
 
       .grid-image__wrap {
         margin: 0;
-        background-color: $gray;
       }
 
       .grid-image__item {
@@ -231,12 +230,32 @@
           transform: translateY(0);
           padding: 0 20px;
 
+          .grid-image__body {
+            padding-top: 25px;
+
+            .text--silver {
+              color: $blue;
+            }
+          }
+
           .btn--bg-white{
             color: $blue !important;
             border-color: $blue !important;
             margin-top: 0;
           } 
         } 
+      }
+
+      .grid-image__item--no-image {
+        .grid-image__link {
+          color: $white;
+
+          .grid-image__body {
+            .text--silver {
+              color: $white;
+            }
+          }
+        }
       }
     }  
   }

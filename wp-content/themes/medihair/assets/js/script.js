@@ -155,5 +155,18 @@
     // placeholder
     $('.wpcf7-quiz').attr('placeholder', 'What is the first letter of Medihair?*');
 
+    // Read more - Read less.
+    $('.js-show-more').on('click', function (e) {
+      e.preventDefault();
+
+      if(!$(this).parents('.list-member__content').hasClass('is-show')) {
+        $(this).parents('.list-member__content').addClass('is-show');
+        $(this).hide();
+      } else {
+        $(this).parents('.list-member__content').removeClass('is-show');
+        $(this).parents('.list-member__content').find('.js-show-more').show();
+      }
+    });
+
   });
 }(this, this.document, this.jQuery));

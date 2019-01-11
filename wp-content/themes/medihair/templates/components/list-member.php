@@ -10,7 +10,7 @@ if( get_row_layout() == 'list_member' ): ?>
           $image = get_sub_field('image');
           $title = get_sub_field('title');
           $body = get_sub_field('body');
-          $link = get_sub_field('link');
+          $readMore = get_sub_field('read_more');
         ?>
           <div class="list-member__item">
             <div class="list-member__image">
@@ -19,8 +19,16 @@ if( get_row_layout() == 'list_member' ): ?>
             </div>
             <div class="list-member__content">
               <h2 class="desktop-only"><?php echo $title; ?></h2>
-              <div class="list-member__content--show"><?php echo $body; ?></div>
-              <a class="read-more js-show-more" href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php if($link): echo $link['title']; else: echo "Read More..."; endif; ?></a>
+              <div class="list-member__content--show <?php if( $readMore ){echo 'readMore';} ?>"><?php echo $body; ?></div>
+              <?php if( $readMore ): ?>
+              <a class="read-more js-show-more" href="#" >Read More...</a>
+              <div class="list-member__content--hide">
+                <?php echo $readMore; ?>
+                <div class="read-more-wrap">
+                  <a class="read-more js-show-more" href="#">Read Less</a>
+                </div>
+              </div>
+              <?php endif; ?> 
             </div>
           </div>
         <?php endwhile;

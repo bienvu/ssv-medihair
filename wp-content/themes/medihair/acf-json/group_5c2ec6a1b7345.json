@@ -738,10 +738,10 @@
                                     "delay": 0
                                 },
                                 {
-                                    "key": "field_5c32f50e81625",
-                                    "label": "Link",
-                                    "name": "link",
-                                    "type": "link",
+                                    "key": "field_5c385739997a3",
+                                    "label": "Read more",
+                                    "name": "read_more",
+                                    "type": "wysiwyg",
                                     "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
@@ -750,7 +750,11 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "return_format": "array"
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
                                 }
                             ]
                         }
@@ -1156,5 +1160,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1547025875
+    "modified": 1547196229
 }

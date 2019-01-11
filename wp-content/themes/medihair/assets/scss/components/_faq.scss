@@ -40,13 +40,17 @@
     margin: 35px 0 0;
 
     .btn:last-child {
-      width: auto;
-      padding-left: 30px;
-      padding-right: 30px;
+      @media only screen and (min-width: $tablet) {
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+      }  
     }
 
     .btn:first-child {
-      margin-right: 25px;
+      @media only screen and (min-width: $tablet) {
+        margin-right: 25px;
+      }
     }
   }
 }
