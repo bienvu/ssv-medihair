@@ -163,18 +163,18 @@
 
 .slick-dots {
   position: absolute;
-  bottom: 20px;
+  bottom: 8px;
   right: 20px;
   display: flex;
   font-size: 0;
 
   li {
     opacity: .5;
-    margin: 0 5px;
+    margin: 0 4px;
 
     span {
-      width: 20px;
-      height: 20px;
+      width: 15px;
+      height: 15px;
       padding: 5px;
       background: $white;
       border-radius: 50%;

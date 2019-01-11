@@ -25,9 +25,13 @@
     width: 50%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-top: 20px;
 
     @media only screen and (min-width: $tablet) {
+      &:nth-child(1),&:nth-child(2) {
+        margin-top: 0;
+      }
+
       &:nth-child(odd) {
         padding-right: 15px;
       }
