@@ -1,4 +1,10 @@
 .list-article {
+  padding: 50px 0 20px;
+
+  .section-title{
+    margin-bottom: 36px;
+  }
+
   &__wrap {
     display: flex;
     flex-wrap: wrap;
@@ -8,7 +14,8 @@
   &__item {
     width: calc((100% - 51px) / 3);
     margin-right: 25px;
-    margin-bottom: 38px;
+    margin-bottom: 35px;
+    margin-top: 20px;
 
     &:nth-child(3n) {
       @media only screen and (min-width: $tablet) {
@@ -28,9 +35,13 @@
       }
     }
 
-    @media only screen and (max-width: $mobilePortrait) {
+    @media only screen and (max-width: $mobileLandScape) {
       width: 100%;
       margin-right: 0;
     }
+  }
+
+  &__image {
+    text-align: center;
   }
 }

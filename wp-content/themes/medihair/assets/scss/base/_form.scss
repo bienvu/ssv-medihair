@@ -301,6 +301,8 @@ input[type="checkbox"] {
 .wpcf7-validation-errors,
 .wpcf7-acceptance-missing,
 .div.wpcf7-mail-sent-ok,
-.wpcf7-display-none {
+.wpcf7-display-none,
+.wpcf7-quiz-label, 
+.yikes-easy-mc-success-message {
   display: none !important;
 }

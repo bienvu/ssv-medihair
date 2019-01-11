@@ -16,7 +16,7 @@
         <div class="article-detail__wrap">
           <div class="article-detail__list">
             <div class="article-detail__image">
-              <?php the_post_thumbnail(); ?>
+              <?php the_post_thumbnail('details'); ?>
             </div>
             <div class="article-detail__description">
               <h2 class="article-detail__title"><?php the_title(); ?></h2>
@@ -66,4 +66,5 @@
 <?php else: ?>
   <h1><?php _e( 'Sorry, nothing to display.', 'sentiustheme' ); ?></h1>
 <?php endif; ?>
+<?php do_shortcode("[block id='free-consultation']"); ?>
 <?php get_footer(); ?>

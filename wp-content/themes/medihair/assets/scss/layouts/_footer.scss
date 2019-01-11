@@ -78,6 +78,11 @@
           margin-bottom: 0;
         }
 
+        & input[type=text],& input[type=email] {
+          background-color: #fff;
+          border-color: #fff;
+        }
+
         .yikes-easy-mc-submit-button {
           margin-top: 13px;
           padding: 12px 35px;
