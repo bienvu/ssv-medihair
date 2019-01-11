@@ -66,5 +66,5 @@
 <?php else: ?>
   <h1><?php _e( 'Sorry, nothing to display.', 'sentiustheme' ); ?></h1>
 <?php endif; ?>
-<?php do_shortcode("[block id='free-consultation']"); ?>
+<?php echo do_shortcode("[block id='free-consultation']"); ?>
 <?php get_footer(); ?>
