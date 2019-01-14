@@ -24,6 +24,11 @@
     &.grid-image__item--no-image {
       .grid-image__content {
         background-color: $blue;
+        height: 100%; 
+
+        &:hover {
+          cursor: default;
+        }
       }
 
       .grid-image__link {
@@ -54,10 +59,6 @@
     opacity: 0;
     visibility: hidden;
 
-    &:hover {
-      pointer-events: none;
-    }
-
     a {
       margin-top: 37px;
 
@@ -69,10 +70,6 @@
 
     h3 {
       line-height: 22px;
-    }
-
-    @media only screen and (min-width: $desktop) {
-      
     }
   }
   

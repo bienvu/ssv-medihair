@@ -56,7 +56,8 @@
 
     //scroll to next section
     $('.js-scroll-down').click(function() {
-      var $next = $(this).parent().parent().next().offset().top;
+      var $temp = $('.header').height();
+      var $next = $(this).parent().parent().next().offset().top - $temp;
       $('html, body').animate({
         scrollTop: $next
       }, 'slow');
@@ -153,7 +154,7 @@
     });
 
     // placeholder
-    $('.wpcf7-quiz').attr('placeholder', 'What is the first letter of Medihair?*');
+    $('.wpcf7-quiz').attr('placeholder', 'What is the first letter in the word Medihair*');
 
     // Read more - Read less.
     $('.js-show-more').on('click', function (e) {
