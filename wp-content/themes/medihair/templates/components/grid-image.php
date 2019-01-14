@@ -32,7 +32,7 @@ if( get_row_layout() == 'grid_image' ):
               <div class="grid-image__item <?php if( !$image ){echo 'grid-image__item--no-image';} ?>">
                 <div class="grid-image__content">
                   
-                  <a href="<?php if( $link ){echo  $link['url'];} else{echo '#';} ?>">
+                  <a href="<?php if( $link ){echo  $link['url'];} else{echo '';} ?>">
                     <?php if( $image ): ?>
                       <?php echo wp_get_attachment_image( $image['ID'], 'full' ); ?>
                     <?php endif; ?> 

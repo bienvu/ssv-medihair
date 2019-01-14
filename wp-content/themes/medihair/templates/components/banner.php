@@ -26,7 +26,7 @@ if( get_row_layout() == 'banner' ):
               <h3 class="banner__subtitle"><?php print $subtitle; ?></h3>
             </div>
             <div class="banner__subcontent">
-              <h1 class="banner__title"><?php print $title; ?></h1>
+              <h2 class="banner__title"><?php print $title; ?></h2>
                 <?php if($link): ?>
                   <a href="<?php print $link['url']; ?>" class="btn"><?php if($link['title']) {print $link['title'];} else {print 'Discover More';} ?></a>
                 <?php endif;?>
