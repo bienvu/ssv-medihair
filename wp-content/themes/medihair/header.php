@@ -45,12 +45,9 @@
 								<a href="tel:1300355325"><i class="icons icon-phone"></i></a>
 							</span>
 							<span class="menu-bars">
-								<span class="menu-bars__row">
-								</span>
-								<span class="menu-bars__row">
-								</span>
-								<span class="menu-bars__row">
-								</span>
+								<span class="menu-bars__row"></span>
+								<span class="menu-bars__row"></span>
+								<span class="menu-bars__row"></span>
 							</span>
 						</div>
 					</div>

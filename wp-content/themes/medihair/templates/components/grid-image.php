@@ -26,6 +26,7 @@ if( get_row_layout() == 'grid_image' ):
             while ( have_rows('grid_image_item') ) : the_row();
               // Field variables
               $image = get_sub_field('image');
+              $imageMobile = get_sub_field('image_mobile');
               $content = get_sub_field('content');
               $link = get_sub_field('link'); ?>
 
@@ -34,8 +35,15 @@ if( get_row_layout() == 'grid_image' ):
                   
                   <a href="<?php if( $link ){echo  $link['url'];} else{echo '';} ?>">
                     <?php if( $image ): ?>
-                      <?php echo wp_get_attachment_image( $image['ID'], 'full' ); ?>
+                      <div class="<?php if( $imageMobile ): ?>hidden-on-mobile-small<?php endif; ?>">
+                        <?php echo wp_get_attachment_image( $image['ID'], 'full' ); ?>
+                      </div>
                     <?php endif; ?> 
+                    <?php if( $imageMobile ): ?>
+                      <div class="hidden-on-mobile-large">
+                        <?php echo wp_get_attachment_image( $imageMobile['ID'], 'full' ); ?>
+                      </div>
+                    <?php endif; ?>
                     <?php if($type=='grid-image--4col'): ?>
                       <div class="grid-image--4col__content">
                         <?php echo $content; ?>

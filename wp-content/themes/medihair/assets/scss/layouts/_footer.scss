@@ -4,7 +4,7 @@
     margin: 0;
 
     @media only screen and (max-width: $mobileOnly) {
-      padding: 20px 0;
+      padding: 35px 0 10px;
     }
   }
   
@@ -14,6 +14,11 @@
       font-size: 12px;
       margin-bottom: 0;
       padding: 15px 0;
+
+      @media only screen and (max-width: $mobilePortraitOnly) {
+        font-weight: 700;
+        padding: 25px 0;
+      }
     }
   }
 
@@ -35,7 +40,7 @@
           }
 
           @media only screen and (max-width: $mobileOnly) {
-           width: 30%;
+           width: 42%;
            padding: 0;
           }
 
@@ -46,17 +51,28 @@
             }
 
             @media only screen and (max-width: $mobileOnly) {
-              width: 70%;
+              width: 60%;
             }
 
             li {
               margin-bottom: 12px;
+
+              @media only screen and (max-width: $mobileOnly) {
+                margin-bottom: 16px;
+              }
 
               a {
                 font-weight: 700;
                 text-transform: uppercase;
                 letter-spacing: 1.3px;
                 font-size: 16px;
+
+                @media only screen and (max-width: $mobileOnly) {
+                  font-size: 14px;
+                  text-transform: none;
+                  font-weight: 400;
+                  letter-spacing: 0.5px;
+                }
               }
             }
           }
@@ -73,7 +89,13 @@
     }
 
     &--form {
-      .yikes-easy-mc-form {
+      form {
+        @media only screen and (max-width: $mobileOnly) {
+          .form-item {
+            margin-bottom: 20px;
+          }
+        }
+
         label{
           margin-bottom: 0;
         }
@@ -83,13 +105,15 @@
           border-color: #fff;
         }
 
-        .yikes-easy-mc-submit-button {
-          margin-top: 13px;
+        .wpcf7-submit {
+          margin-top: 8px;
           padding: 12px 35px;
           width: auto;
 
           @media only screen and (max-width: $mobileOnly) {
-           width: 100%;
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: 0;
           }
         }
       }
@@ -166,6 +190,7 @@
         h4 {
           text-align: right;
           margin: 0 0 -25px 0;
+          font-size: 21px;
         }
 
         ul {
@@ -191,6 +216,7 @@
 
       &--form {
         order: 2;
+        padding-top: 10px;
       }
 
       &--menu {

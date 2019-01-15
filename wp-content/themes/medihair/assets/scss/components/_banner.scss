@@ -30,7 +30,7 @@
     position: relative;
     position: fixed;
     left: 0;
-    top: 65px;
+    top: 78px;
     right: 0;
     height: 180px;
     background-size: cover;
@@ -153,14 +153,14 @@
   }
 
   &--width-slider {
-    height: calc(100vh - 65px);
+    height: calc(100vh - 78px);
 
     @media only screen and (min-width: 1180px) {
       height: calc(100vh - 90px);
     }
 
     @media only screen and (max-width: $mobileOnly) {
-      height: calc(80vh - 65px);
+      height: calc(65vh - 78px);
     }
     
     .banner__title {

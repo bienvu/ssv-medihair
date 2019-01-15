@@ -4,9 +4,19 @@
   z-index: 2;
   padding: 10px 0 35px;
 
+  @media only screen and (max-width: $mobileOnly) {
+    padding-bottom: 0;
+  }
+
   .section-title {
     margin: 45px 0;
     color: $blue;
+
+    @media only screen and (max-width: $mobileOnly) {
+      margin: 22px 0;
+      padding: 0 20px;
+      text-align: left;
+    }
   }
 
   &__wrap {
@@ -120,6 +130,12 @@
     @extend .text--white;
     padding-bottom: 0;
 
+    .section-title {
+      @media only screen and (max-width: $mobileOnly) {
+        margin-top: 16px;
+      }
+    }
+
     .grid-image__wrap {
       margin: 0;
     }
@@ -159,16 +175,30 @@
       color: #fff;
       text-transform: uppercase;
 
+      @media only screen and (max-width: $mobilePortraitOnly) {
+        padding: 0 10px;
+      }
+
       span,p {
         font-size: 13px;
         letter-spacing: -0.3px;
         line-height: 24px;
         margin-bottom: 0;
+
+        @media only screen and (max-width: $mobilePortraitOnly) {
+          line-height: 15px;
+        }
       }
 
       h3 {
         margin-bottom: 21px;
         line-height: 20px;
+
+        @media only screen and (max-width: $mobilePortraitOnly) {
+          font-size: 13px;
+          margin-bottom: 5px;
+          line-height: 18px;
+        }
       }
     }
   }
@@ -196,6 +226,7 @@
       .grid-image__item {
         width: 100%;
         padding: 0;
+        margin-bottom: 30px;
 
         .btn {
           display: none;
@@ -228,7 +259,11 @@
           padding: 0 20px;
 
           .grid-image__body {
-            padding-top: 25px;
+            padding-top: 20px;
+
+            p:last-child {
+              margin-bottom: 0;
+            }
 
             .text--silver {
               color: $blue;
@@ -238,7 +273,8 @@
           .btn--bg-white{
             color: $blue !important;
             border-color: $blue !important;
-            margin-top: 0;
+            margin-top: 16px;
+            margin-bottom: 10px;
           } 
         } 
       }

@@ -36,6 +36,7 @@
       background-color: $blue;
       opacity: 0.9;
       height: 100%;
+      line-height: 0;
 
       >div{
         position: absolute;
@@ -44,8 +45,11 @@
         transform: translateY(-50%);
         text-align: left;
 
-        @media only screen and (max-width: $mobilePortraitOnly) {
-          left: 20px;
+        @media only screen and (max-width: $mobileOnly) {
+          text-align: center;
+          left: 0;
+          width: 100%;
+          padding: 0 20px;
         }
       }
     }
@@ -56,8 +60,14 @@
       line-height: 35px;
       margin-bottom: 0;
 
+      @media only screen and (max-width: $mobileOnly) {
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+
       &:last-child{
         color: #b2b1b0;
+        margin-bottom: 0;
       }
     }
   }
@@ -91,6 +101,10 @@
     margin-top: 35px;
     margin-bottom: 25px;
 
+    @media only screen and (max-width: $mobilePortraitOnly) {
+      margin-top: 18px;
+      margin-bottom: 0px;
+    }
     a{
       margin-right: 15px;
     }
