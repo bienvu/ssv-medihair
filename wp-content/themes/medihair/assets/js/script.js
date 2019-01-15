@@ -9,10 +9,10 @@
   document.addEventListener( 'wpcf7mailsent', function( event ) {
     if ( '5' == event.detail.contactFormId ) {
         window.location.href = window.location.protocol + '//' + window.location.hostname + '/thank-you/';
+    }else if('613' == event.detail.contactFormId){
+        window.location.href = window.location.protocol + '//' + window.location.hostname + '/thank-you-e-news/';
     }
-    // else if('204' == event.detail.contactFormId){
-    //     window.location.href = window.location.protocol + '//' + window.location.hostname + '/thank-you-contact/';
-    // }else if('210' == event.detail.contactFormId) {
+    // else if('210' == event.detail.contactFormId) {
     //     window.location.href = window.location.protocol + '//' + window.location.hostname + '/thank-you-request/';
     // }
   }, false );

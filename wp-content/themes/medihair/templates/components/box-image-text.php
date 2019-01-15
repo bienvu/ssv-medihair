@@ -4,6 +4,7 @@ if( get_row_layout() == 'box_image_text' ):
   $body = get_sub_field('body');
   $link = get_sub_field('link');
   $image = get_sub_field('image');
+  $imageMobile = get_sub_field('image_mobile');
   $type = get_sub_field('type');
   $background = get_sub_field('background');
   $size = 'full' 
@@ -12,7 +13,7 @@ if( get_row_layout() == 'box_image_text' ):
   <div class="box-image-text <?php print $type;?>">
     <div class="box-image-text__wrap">
       <?php if( $image ): ?>
-        <div class="box-image-text__image" style="background-image: url(<?php print $image['url']; ?>); opacity: 1;">
+        <div class="box-image-text__image <?php if( $imageMobile ): ?>hidden-on-mobile-small<?php endif; ?>" style="background-image: url(<?php print $image['url']; ?>); opacity: 1;">
           <?php if( $type == 'box-image-text--with-title' ): ?>
             <div class="box-image-text__image-description">
           <?php endif; ?>    
@@ -24,6 +25,20 @@ if( get_row_layout() == 'box_image_text' ):
             </div>
           <?php endif; ?> 
         </div>
+      <?php endif; ?>
+      <?php if( $imageMobile ): ?>
+          <div class="box-image-text__image hidden-on-mobile-large" style="background-image: url(<?php print $imageMobile['url']; ?>)">
+            <?php if( $type == 'box-image-text--with-title' ): ?>
+              <div class="box-image-text__image-description">
+            <?php endif; ?>    
+            <?php echo wp_get_attachment_image( $imageMobile['ID'], $size ); ?>
+            <?php if( $type == 'box-image-text--with-title' ): ?>
+                <div>
+                  <?php print $title; ?>
+                </div>
+              </div>
+            <?php endif; ?>    
+          </div>
       <?php endif; ?>
 
       <div class="box-image-text__content <?php print $background; ?>">

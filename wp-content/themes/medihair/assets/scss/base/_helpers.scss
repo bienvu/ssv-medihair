@@ -64,6 +64,18 @@
   }
 }
 
+.hidden-on-mobile-large {
+  @media only screen and (min-width: 480px) {
+    display: none !important;
+  }
+}
+
+.hidden-on-mobile-small {
+  @media only screen and (max-width: 479px) {
+    display: none !important;
+  }
+}
+
 .section-title{
   @extend .text--center;
 
@@ -93,27 +105,10 @@
     text-transform: uppercase;
     position: relative;
     letter-spacing: 0.5px;
-    padding-left: 15px;
+    padding-left: 0px;
 
     &:hover {
       text-decoration: underline;
-    }
-
-    &:before {
-      transform: rotate(90deg);
-      content: "\e902";
-      cursor: pointer;
-      font-family: 'med';
-      font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
-      left: 0;
-      line-height: 1;
-      position: absolute;
-      speak: none;
-      text-transform: none;
-      top: 3px;
-      font-size: 11px;
     }
   }
 }
