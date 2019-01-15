@@ -16,11 +16,13 @@ if( get_row_layout() == 'banner' ):
           <div class="banner__item">
             <?php if( $images ): ?>
               <div class="banner__images" style="background-image: url(<?php print $images['url']; ?>)" >
-                <?php echo wp_get_attachment_image( $images['ID'], $size ); ?>
+                  <?php echo wp_get_attachment_image( $images['ID'], $size ); ?>
+                
               </div>
             <?php endif; ?>
             
             <?php if($count > 1): ?>
+            <div class="banner__bg" ></div>
             <div class="banner__content desktop-only">
               <span class="banner__description"><?php print $description; ?></span>
               <h3 class="banner__subtitle"><?php print $subtitle; ?></h3>

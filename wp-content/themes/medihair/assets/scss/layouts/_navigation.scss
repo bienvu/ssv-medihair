@@ -123,10 +123,30 @@
             white-space: nowrap;
             width: 100%;
             display: block;
+            position: relative;
+
+            span{
+              position: relative;
+              &:before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                bottom: -10px;
+                background: $white;
+                transform: scale(0);
+                transition: .5s;
+              } 
+            }
+            
+
+            &:hover span:before {
+              transform: scale(1);
+            }
             
             @media only screen and (min-width: 1180px) {
-            padding: 9px 15px;
-          }
+              padding: 9px 15px;
+            }
 
 
             @media only screen and (max-width: 1179px) {
@@ -135,7 +155,7 @@
           }
 
           &:last-child {
-              margin-bottom: 12px;
+            margin-bottom: 12px;
           }
         }
       }
