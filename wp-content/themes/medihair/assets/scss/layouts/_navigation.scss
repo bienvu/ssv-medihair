@@ -140,16 +140,19 @@
 
             span{
               position: relative;
-              &:before {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 1px;
-                bottom: -10px;
-                background: $white;
-                transform: scale(0);
-                transition: .5s;
-              } 
+
+              @media only screen and (min-width: 1180px) {
+                &:before {
+                  content: "";
+                  position: absolute;
+                  width: 100%;
+                  height: 1px;
+                  bottom: -10px;
+                  background: $white;
+                  transform: scale(0);
+                  transition: .5s;
+                } 
+              }
             }
             
 
