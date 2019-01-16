@@ -127,13 +127,13 @@
 
   &--image-right{
     .box-image-text__image{
-      @media only screen and (min-width: $desktop) {
+      @media only screen and (min-width: $tablet) {
         order: 2;
       }
     }
     
     .box-image-text__content{
-      @media only screen and (min-width: $desktop) {
+      @media only screen and (min-width: $tablet) {
         order: 1;
       }
 

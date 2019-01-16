@@ -107,6 +107,11 @@
       position: relative;
       overflow: hidden;
 
+      &.no-link {
+        pointer-events: none;
+        cursor: default;
+      }
+
       &:before {
         content: "";
         position: absolute;
@@ -211,6 +216,13 @@
 
       &:nth-child(even) {
         padding-right: 0;
+      }
+
+      .btn-procedures {
+        @media only screen and (max-width: $mobileOnly) {
+          margin-top: 15px;
+          margin-bottom: 10px;
+        }
       }
     }
 

@@ -9,14 +9,20 @@ if( get_row_layout() == 'banner' ):
           $title = get_sub_field('title');
           $link = get_sub_field('link');
           $images = get_sub_field('image');
-          //print_r($images);
+          $imagesMobile = get_sub_field('image_mobile');
           $subtitle = get_sub_field('subtitle');
           $description = get_sub_field('description');
           $size = 'full'; ?>
           <div class="banner__item">
             <?php if( $images ): ?>
-              <div class="banner__images" style="background-image: url(<?php print $images['url']; ?>)" >
+              <div class="banner__images <?php if( $imageMobile ): ?>hidden-on-mobile-small<?php endif; ?>" style="background-image: url(<?php print $images['url']; ?>)" >
                   <?php echo wp_get_attachment_image( $images['ID'], $size ); ?>
+                
+              </div>
+            <?php endif; ?>
+             <?php if( $imagesMobile ): ?>
+              <div class="banner__images hidden-on-mobile-large" style="background-image: url(<?php print $imagesMobile['url']; ?>)" >
+                  <?php echo wp_get_attachment_image( $imagesMobile['ID'], $size ); ?>
                 
               </div>
             <?php endif; ?>

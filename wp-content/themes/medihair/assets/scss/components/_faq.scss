@@ -1,10 +1,22 @@
 .box-faq {
   padding: 55px 0;
 
+  .section-title {
+    h2 {
+      @media only screen and (max-width: $mobileOnly) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $mobileOnly) {
+    padding: 35px 0;
+  }
+
   &__item {
     @media only screen and (max-width: $mobileOnly) {
       border-bottom: solid 1px #ccc;
-      padding: 12px 0 10px;
+      padding: 12px 0;
       position: relative;
 
       &:before {
@@ -29,6 +41,14 @@
       }
     }
   }
+
+  &__question {
+    @media only screen and (max-width: $mobileOnly) {
+      h4 {
+        margin-bottom: 0;
+      }
+    }
+  }
   
   &__answer {
     @media only screen and (max-width: $mobileOnly) {
@@ -38,6 +58,14 @@
 
   &__link {
     margin: 35px 0 0;
+
+    @media only screen and (max-width: $mobileOnly) {
+      margin-top: 40px;
+
+      .btn:last-child {
+        margin-bottom: 0;
+      }
+    }
 
     .btn:last-child {
       @media only screen and (min-width: $tablet) {
