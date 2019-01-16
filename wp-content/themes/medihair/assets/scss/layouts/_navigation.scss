@@ -105,15 +105,17 @@
           &:after {
             @include med;
             content: "\e902";
-            font-size: 20px;
+            font-size: 13px;
             color: #fff;
             position: absolute;
             top: 0;
-            right: -28px;
+            right: -21px;
             transition: .3s;
 
             @media only screen and (max-width: 1179px) {
-              top: -3px;
+              top: -2px;
+              font-size: 20px;
+              right: -28px;
             }
           }
         }
@@ -138,16 +140,19 @@
 
             span{
               position: relative;
-              &:before {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 1px;
-                bottom: -10px;
-                background: $white;
-                transform: scale(0);
-                transition: .5s;
-              } 
+
+              @media only screen and (min-width: 1180px) {
+                &:before {
+                  content: "";
+                  position: absolute;
+                  width: 100%;
+                  height: 1px;
+                  bottom: -10px;
+                  background: $white;
+                  transform: scale(0);
+                  transition: .5s;
+                } 
+              }
             }
             
 
