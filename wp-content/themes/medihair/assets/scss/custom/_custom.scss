@@ -1,0 +1,7 @@
+.costs {
+  .box-link {
+    @media only screen and (max-width: $mobileOnly) {
+      margin-top: 35px;
+     }
+  } 
+}

@@ -1,13 +1,33 @@
 .box-link {
   margin: 40px 0;
 
+  @media only screen and (max-width: $mobileOnly) {
+    margin: 15px 0;
+  }
+  
   &__content {
     display: flex;
     justify-content: center;
     padding: 20px 0;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width: $mobileOnly) {
+      padding: 10px 0;
+    }
 
     a {
       margin: 0 15px;
+
+      @media only screen and (max-width: $mobileOnly) {
+        margin:  0 0 20px;
+
+        &:last-child {
+          order: 1;
+        }
+        &:first-child {
+          order: 2;
+        }
+      }
     }
   }
 }

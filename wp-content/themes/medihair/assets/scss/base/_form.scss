@@ -21,6 +21,10 @@ input[type='submit'] {
   letter-spacing: 0;
   cursor: pointer;
 
+  @media only screen and (max-width: $mobileOnly) {
+    padding: 10px 12px;
+  }
+
   &::-ms-clear {
     display: none;
   }
@@ -117,6 +121,10 @@ textarea {
   height: auto;
   min-height: rem(107px);
   padding: rem(10px 20px);
+
+  @media only screen and (max-width: $mobileOnly) {
+    padding: rem(10px 12px);
+  }
 }
 
 .form-item,
@@ -126,6 +134,12 @@ textarea {
   &.form-type-checkbox,
   &.form-type-radio {
     margin-bottom: rem(8px);
+  }
+}
+
+.form-item {
+  @media only screen and (max-width: $mobileOnly) {
+    margin-bottom: 20px;
   }
 }
 
@@ -160,6 +174,10 @@ select {
   border: 0;
   border-radius: 0;
   font-family: inherit;
+
+  @media only screen and (max-width: $mobileOnly) {
+    padding: 12px;
+  }
 
   &::-ms-expand{
     display: none;
