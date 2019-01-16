@@ -91,7 +91,7 @@
       width: 100%;
       height: calc(100% - 65px);
       background: $blue;
-      padding-top: 5px;
+      padding-top: 30px;
       z-index: 99;
     }
 
@@ -108,14 +108,17 @@
         display: flex;
         flex-direction: column;
         align-items: baseline;
-        margin: 0 15px;
+        margin: 0 20px;
       }
 
       >li {
         @media only screen and (max-width: 1179px) {
           width: 100%;
           margin: 0;
-          border-bottom: 1px solid rgba(51, 49, 50, 0.3);
+
+          >a {
+            border-bottom: 1px solid rgba(51, 49, 50, 0.3);
+          }
 
           &:last-child {
             order: -1;
@@ -141,7 +144,7 @@
   width: 45px;
   display: inline-block;
   margin-left: 25px;
-  margin-top: 5px;
+  margin-top: 7px;
 
   @media only screen and (min-width: 1180px) {
     display: none;

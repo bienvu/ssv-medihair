@@ -1,5 +1,8 @@
 // Texts
 .text {
+  &--transform-initial {
+    text-transform: initial;
+  }
   &--center {
     text-align: center;
   }

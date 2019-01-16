@@ -1,11 +1,23 @@
 .box-results {
   padding: 42px 0 0;
 
+  @media only screen and (max-width: $mobileOnly) {
+    padding: 25px 0 0;
+  }
+
   .section-title {
     margin-bottom: 58px;
 
+    @media only screen and (max-width: $mobileOnly) {
+      margin-bottom: 22px;
+    }
+
     h1 {
       margin-bottom: 6px;
+
+      @media only screen and (max-width: $mobileOnly) {
+        font-size: 28px;
+      }
     }
   }
 
@@ -42,7 +54,8 @@
     }
 
     @media only screen and (max-width: $mobileOnly) {
-      width: 100%
+      width: 100%;
+      margin-top: 15px;
     }
   }
 
