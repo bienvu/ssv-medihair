@@ -105,15 +105,17 @@
           &:after {
             @include med;
             content: "\e902";
-            font-size: 20px;
+            font-size: 13px;
             color: #fff;
             position: absolute;
             top: 0;
-            right: -28px;
+            right: -21px;
             transition: .3s;
 
             @media only screen and (max-width: 1179px) {
-              top: -3px;
+              top: -2px;
+              font-size: 20px;
+              right: -28px;
             }
           }
         }
