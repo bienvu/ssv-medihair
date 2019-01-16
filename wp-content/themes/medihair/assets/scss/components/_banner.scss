@@ -1,11 +1,7 @@
 .banner {
   position: relative;
-  height: 180px;
+  height: 226px;
   z-index: 2;
-
-  @media only screen and (min-width: 480px) {
-    height: 195px;
-  }
 
   @media only screen and (min-width: $tablet) {
     height: 375px;
@@ -32,14 +28,10 @@
     left: 0;
     top: 78px;
     right: 0;
-    height: 180px;
+    height: 226px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    @media only screen and (min-width: 480px) {
-      height: 195px;
-    }
 
     @media only screen and (min-width: $tablet) {
       height: 375px;
