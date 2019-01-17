@@ -71,6 +71,13 @@
     @media only screen and (max-width: $mobileOnly) {
       width: 50%;
       
+      &:nth-child(odd) {
+        padding-right: 3px;
+      }
+
+      &:nth-child(even) {
+        padding-left: 3px;
+      }
       img{
         width: 100%;
       }

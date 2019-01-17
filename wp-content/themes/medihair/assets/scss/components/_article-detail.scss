@@ -66,6 +66,10 @@
         display: inline-block;
         padding: 1px 7px;
         height: 35px;
+
+        &.icon-email {
+          font-size: 19px;
+        }
       }
     }
   }

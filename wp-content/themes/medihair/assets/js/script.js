@@ -113,7 +113,7 @@
         breakpoint: 1024,
         settings: {
           dots: false,
-          arrows: false
+          arrows: true
         }
       }]
     });
@@ -154,7 +154,7 @@
     });
 
     // placeholder
-    $('.wpcf7-quiz').attr('placeholder', 'What is the first letter in the word Medihair*');
+    $('.wpcf7-quiz').attr('placeholder', 'What is the first letter in the word Medihair?*');
 
     // Read more - Read less.
     $('.js-show-more').on('click', function (e) {
