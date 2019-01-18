@@ -45,6 +45,10 @@
         transform: translateY(-50%);
         text-align: left;
 
+        @media only screen and (max-width: 1179px) {
+          left: 0;
+          padding: 0 20px;
+        }
         @media only screen and (max-width: $mobileOnly) {
           text-align: center;
           left: 0;
@@ -107,6 +111,12 @@
     }
     a{
       margin-right: 15px;
+
+      @media only screen and (min-width: $tablet) {
+        &:last-child {
+          margin-right: 0;
+        }
+      }
     }
   }
 
