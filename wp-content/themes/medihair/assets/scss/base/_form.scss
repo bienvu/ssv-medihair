@@ -91,7 +91,8 @@ input[type="tel"],
 input[type="url"],
 input[type="email"],
 input[type="password"],
-input[type="hidden"] {
+input[type="hidden"],
+input[type="search"] {
   @extend %form-text;
 }
 
