@@ -55,6 +55,38 @@
     form {
       margin-top: 22px;
 
+      @media only screen and (min-width: $tablet) and (max-width: 830px) {
+        input[type="text"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="url"],
+        input[type="email"],
+        input[type="password"],
+        input[type="hidden"],
+        select,
+        textarea {
+          font-size: 13px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+
+      @media only screen and (max-width: 374px) {
+        input[type="text"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="url"],
+        input[type="email"],
+        input[type="password"],
+        input[type="hidden"],
+        select,
+        textarea {
+          font-size: 12px;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+
       .form-type-textarea {
         line-height: 0;
       }
