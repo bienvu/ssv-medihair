@@ -55,3 +55,14 @@
     }
   }
 }
+
+.entry-content-page h3,
+.search__wrap h1{
+  line-height: 1.3;
+}
+
+@media only screen and (max-width: 374px) {
+  br {
+    display: none !important;
+  }
+}

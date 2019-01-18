@@ -7,7 +7,7 @@
     <div class="list-article">
       <div class="container">
         <div class="section-title">
-          <h2><?php printf(single_cat_title( '', false ) ); ?></h2>
+          <h1 class="h2"><?php printf(single_cat_title( '', false ) ); ?></h1>
         </div>
 
         <div class="list-article__wrap">

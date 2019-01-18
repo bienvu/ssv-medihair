@@ -74,7 +74,8 @@
     }
     &--show {
       @media only screen and (max-width: $mobileOnly) {
-        p:not(:first-child) {
+        p:not(:first-child),
+        ul {
           display: none;
         }
       }
@@ -86,7 +87,8 @@
 
       .list-member__content--show {
         @media only screen and (max-width: $mobileOnly) {
-          p:not(:first-child) {
+          p:not(:first-child),
+          ul {
             display: block;
           }
         }

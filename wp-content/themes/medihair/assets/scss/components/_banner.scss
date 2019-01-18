@@ -161,6 +161,14 @@
     @media only screen and (max-width: $mobileOnly) {
       height: calc(65vh - 78px);
     }
+
+    .banner__inner {
+      opacity: 0;
+
+      &.slick-slider {
+        opacity: 1;
+      }
+    }
     
     .banner__title {
       // @extend %bg-shadown;
