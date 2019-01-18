@@ -5,3 +5,42 @@
      }
   } 
 }
+
+.main-menu {
+  .book-link {
+    @media only screen and (max-width: 1179px) and (min-width: $tablet) {
+      a {
+        min-width: 350px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: $mobilePortrait) {
+  main br.mobile-only {
+    display: none !important;
+  }
+
+  .box-image-text__image h2 {
+    font-size: 22px;
+  }
+}
+
+
+@media only screen and (max-width: $desktopWide) and (min-width: $tablet) {
+  .box-image-text {
+    &__link {
+      text-align: center;
+
+      .btn {
+        margin: 0 auto 20px;
+        width: 50%;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
