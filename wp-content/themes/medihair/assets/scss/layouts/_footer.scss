@@ -1,7 +1,12 @@
 .footer {
   &__top {
-    padding: 50px 39px 25px;
+    padding: 50px 39px 45px;
     margin: 0;
+
+    @media only screen and (max-width: $tabletOnly) and (min-width: $tablet){
+      padding-right: 0;
+      padding-left: 0;
+    }
 
     @media only screen and (max-width: $mobileOnly) {
       padding: 35px 0 10px;
@@ -26,6 +31,10 @@
     display: flex;
     justify-content: space-between;
 
+    @media only screen and (max-width: $tabletOnly) and (min-width: $tablet) {
+      flex-wrap: wrap;
+    }
+ 
     &--menu {
       .menu-footer {
 
@@ -57,6 +66,10 @@
             li {
               margin-bottom: 12px;
 
+              @media only screen and (max-width: $tabletOnly) and (min-width: $tablet) {
+                margin-bottom: 16px;
+              }
+              
               @media only screen and (max-width: $mobileOnly) {
                 margin-bottom: 16px;
               }
@@ -66,6 +79,10 @@
                 text-transform: uppercase;
                 letter-spacing: 1.3px;
                 font-size: 16px;
+
+                @media only screen and (max-width: $tabletOnly) and (min-width: $tablet) {
+                  font-size: 14px;
+                }
 
                 @media only screen and (max-width: $mobileOnly) {
                   font-size: 14px;
@@ -175,6 +192,7 @@
         text-align: right;
       }
     }
+
 
     @media only screen and (max-width: $mobileOnly) {
       flex-direction: column;

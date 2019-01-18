@@ -130,6 +130,8 @@
       font-size: 36px;
       line-height: 38px;
       margin-bottom: 32px;
+      text-shadow: 0 0 60px #000;
+          
       @media only screen and (max-width: $mobileOnly) {
         font-size: 21px;
         line-height: 23px;

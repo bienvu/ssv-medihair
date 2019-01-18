@@ -15,13 +15,13 @@ if( get_row_layout() == 'banner' ):
           $size = 'full'; ?>
           <div class="banner__item">
             <?php if( $images ): ?>
-              <div class="banner__images <?php if( $imageMobile ): ?>hidden-on-mobile-small<?php endif; ?>" style="background-image: url(<?php print $images['url']; ?>)" >
+              <div class="banner__images <?php if( $imageMobile ): ?>desktop-only<?php endif; ?>" style="background-image: url(<?php print $images['url']; ?>)" >
                   <?php echo wp_get_attachment_image( $images['ID'], $size ); ?>
                 
               </div>
             <?php endif; ?>
              <?php if( $imagesMobile ): ?>
-              <div class="banner__images hidden-on-mobile-large" style="background-image: url(<?php print $imagesMobile['url']; ?>)" >
+              <div class="banner__images mobile-only" style="background-image: url(<?php print $imagesMobile['url']; ?>)" >
                   <?php echo wp_get_attachment_image( $imagesMobile['ID'], $size ); ?>
                 
               </div>

@@ -13,7 +13,7 @@ if( get_row_layout() == 'box_image_text' ):
   <div class="box-image-text <?php print $type;?>">
     <div class="box-image-text__wrap">
       <?php if( $image ): ?>
-        <div class="box-image-text__image <?php if( $imageMobile ): ?>hidden-on-mobile-small<?php endif; ?>" style="background-image: url(<?php print $image['url']; ?>); opacity: 1;">
+        <div class="box-image-text__image <?php if( $imageMobile ): ?>desktop-only<?php endif; ?>" style="background-image: url(<?php print $image['url']; ?>); opacity: 1;">
           <?php if( $type == 'box-image-text--with-title' ): ?>
             <div class="box-image-text__image-description">
           <?php endif; ?>    
@@ -27,7 +27,7 @@ if( get_row_layout() == 'box_image_text' ):
         </div>
       <?php endif; ?>
       <?php if( $imageMobile ): ?>
-          <div class="box-image-text__image hidden-on-mobile-large" style="background-image: url(<?php print $imageMobile['url']; ?>)">
+          <div class="box-image-text__image mobile-only" style="background-image: url(<?php print $imageMobile['url']; ?>)">
             <?php if( $type == 'box-image-text--with-title' ): ?>
               <div class="box-image-text__image-description">
             <?php endif; ?>    

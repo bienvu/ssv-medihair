@@ -35,12 +35,12 @@ if( get_row_layout() == 'grid_image' ):
                   
                   <a href="<?php if( $link ){echo  $link['url'];} else{echo '';} ?>" class="<?php if( !$link ){echo 'no-link';} ?>">
                     <?php if( $image ): ?>
-                      <div class="<?php if( $imageMobile ): ?>hidden-on-mobile-small<?php endif; ?>">
+                      <div class="<?php if( $imageMobile ): ?>desktop-only<?php endif; ?>">
                         <?php echo wp_get_attachment_image( $image['ID'], 'full' ); ?>
                       </div>
                     <?php endif; ?> 
                     <?php if( $imageMobile ): ?>
-                      <div class="hidden-on-mobile-large">
+                      <div class="mobile-only">
                         <?php echo wp_get_attachment_image( $imageMobile['ID'], 'full' ); ?>
                       </div>
                     <?php endif; ?>
