@@ -154,6 +154,10 @@
 .pagination {
   text-align: center;
   padding: 30px 0;
+
+  @media only screen and (max-width: $mobileOnly) {
+    padding: 0;
+  }
 }
 
 .h2 {

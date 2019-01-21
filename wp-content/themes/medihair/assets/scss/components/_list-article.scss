@@ -1,8 +1,16 @@
 .list-article {
   padding: 50px 0 20px;
 
+  @media only screen and (max-width: $mobileOnly) {
+    padding-top: 20px;
+  }
+
   .section-title{
     margin-bottom: 36px;
+
+    @media only screen and (max-width: $mobileOnly) {
+      margin-bottom: 0;
+    }
   }
 
   &__wrap {
