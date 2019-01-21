@@ -121,9 +121,10 @@
     text-transform: uppercase;
 
     @media only screen and (max-width: $mobileOnly) {
-      top: 78%;
-      padding: 0 20px;
+      top: auto;
+      padding: 0;
       text-align: center;
+      bottom: -55px;
     }
 
     .banner__title{
