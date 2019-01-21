@@ -80,6 +80,12 @@
 
     h3 {
       line-height: 22px;
+
+      @media only screen and (max-width: 374px) {
+        br {
+          display: block !important;
+        }
+      }
     }
   }
   
@@ -240,6 +246,21 @@
         @media only screen and (max-width: $mobileOnly) {
           margin-top: 15px;
           margin-bottom: 10px;
+        }
+      }
+    }
+
+    .grid-image__body {
+      @media only screen and (max-width: 950px) {
+        img {
+          display: none;
+        }
+      }
+
+      @media only screen and (max-width: 890px) {
+        p {
+          line-height: 1.3;
+          margin-bottom: 0;
         }
       }
     }

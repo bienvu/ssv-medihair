@@ -827,6 +827,33 @@
                                     "toolbar": "full",
                                     "media_upload": 1,
                                     "delay": 0
+                                },
+                                {
+                                    "key": "field_5c4537591cc0d",
+                                    "label": "Type",
+                                    "name": "type",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "list-member__item--read-more": "Read more",
+                                        "list-member__item--no-read-more": "No Read more"
+                                    },
+                                    "default_value": [
+                                        "list-member__item--read-more"
+                                    ],
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "ui": 0,
+                                    "return_format": "value",
+                                    "ajax": 0,
+                                    "placeholder": ""
                                 }
                             ]
                         }
@@ -1232,5 +1259,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1547607294
+    "modified": 1548040228
 }

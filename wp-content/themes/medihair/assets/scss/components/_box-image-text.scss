@@ -151,6 +151,11 @@
         width: 60%;
         margin-left: 16%;
         
+        @media only screen and (max-width: 1179px) {
+          width: 70%;
+          margin-left: 14%;
+        }
+
         @media only screen and (max-width: $mobilePortraitOnly) {
           width: 100%;
           margin-left: 0;

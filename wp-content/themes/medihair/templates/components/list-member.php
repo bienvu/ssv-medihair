@@ -11,8 +11,9 @@ if( get_row_layout() == 'list_member' ): ?>
           $title = get_sub_field('title');
           $body = get_sub_field('body');
           $readMore = get_sub_field('read_more');
+          $type = get_sub_field('type');
         ?>
-          <div class="list-member__item">
+          <div class="list-member__item <?php echo $type; ?>">
             <div class="list-member__image">
               <?php echo wp_get_attachment_image( $image['ID'], 'full' ); ?>
               <h4 class="mobile-only"><?php echo $title; ?></h4>
