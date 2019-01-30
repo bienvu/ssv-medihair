@@ -98,7 +98,8 @@
     });
 
     //slick for banner
-    $('.js-slider').slick({
+    var $jsBanner = $('.js-slider');
+    $jsBanner.slick({
       dots: true,
       autoplay: true,
       speed: 2000,
@@ -123,9 +124,10 @@
     $(window).on('scroll', function () {
       var scrollTop = $(this).scrollTop(),
           heroHeight = $('.banner').outerHeight();
-
-      imageEffect = { 'transform': 'translateY(' + -(scrollTop/6) + 'px)' };
-      $('.banner__images').css(imageEffect);
+      if($(window).width() > 1023) {
+        imageEffect = { 'transform': 'translateY(' + -(scrollTop/6) + 'px)' };
+        $('.banner__images').css(imageEffect);
+      }
 
       if($('.content-wrap').length) {
         var $contentOffsetTop = $('.content-wrap').offset().top;
@@ -169,7 +171,7 @@
       }
     });
 
-    
+
 
 
   });

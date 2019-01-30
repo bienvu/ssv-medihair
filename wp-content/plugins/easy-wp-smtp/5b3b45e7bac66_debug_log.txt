@@ -1,0 +1,1537 @@
+Easy WP SMTP debug log file
+
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<tienbienit1992@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:50:20 +0000
+CLIENT -> SERVER: To: tienbienit1992@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: viettran87@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <4f0927f05ec8886bfa7f37802ab6c836@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_4f0927f05ec8886bfa7f37802ab6c836"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4f0927f05ec8886bfa7f37802ab6c836
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test testes 
+CLIENT -> SERVER: Email: viettran87@gmail.com
+CLIENT -> SERVER: Phone: 321321
+CLIENT -> SERVER: Company: 321321
+CLIENT -> SERVER: Country: Afghanistan
+CLIENT -> SERVER: Postcode/Zip code: 321321
+CLIENT -> SERVER: Enquiry type: Two
+CLIENT -> SERVER: Message: 321321321
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4f0927f05ec8886bfa7f37802ab6c836
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test testes <br />
+CLIENT -> SERVER: Email: viettran87@gmail.com<br />
+CLIENT -> SERVER: Phone: 321321<br />
+CLIENT -> SERVER: Company: 321321<br />
+CLIENT -> SERVER: Country: Afghanistan<br />
+CLIENT -> SERVER: Postcode/Zip code: 321321<br />
+CLIENT -> SERVER: Enquiry type: Two<br />
+CLIENT -> SERVER: Message: 321321321</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4f0927f05ec8886bfa7f37802ab6c836--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:50:20 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: form contact DH
+CLIENT -> SERVER: Message-ID: <f0b35a15a0c7a22a6139f70a10fe6223@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test testes <br/>
+CLIENT -> SERVER: Email: viettran87@gmail.com<br/>
+CLIENT -> SERVER: Phone: 321321<br/>
+CLIENT -> SERVER: Company: 321321<br/>
+CLIENT -> SERVER: Country: Afghanistan<br/>
+CLIENT -> SERVER: Postcode/Zip code: 321321<br/>
+CLIENT -> SERVER: Enquiry type: Two<br/>
+CLIENT -> SERVER: Message: 321321321<br/>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<tienbienit1992@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:53:40 +0000
+CLIENT -> SERVER: To: tienbienit1992@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: dsadsadsad321@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <c8508dd209e29765e88a91d0f46cf8af@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_c8508dd209e29765e88a91d0f46cf8af"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_c8508dd209e29765e88a91d0f46cf8af
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: gếttété testes 
+CLIENT -> SERVER: Email: dsadsadsad321@gmail.com
+CLIENT -> SERVER: Phone: 321321
+CLIENT -> SERVER: Company: 321321
+CLIENT -> SERVER: Country: Afghanistan
+CLIENT -> SERVER: Postcode/Zip code: 4321
+CLIENT -> SERVER: Enquiry type: Enquiry Type
+CLIENT -> SERVER: Message: 4321432
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_c8508dd209e29765e88a91d0f46cf8af
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: gếttété testes <br />
+CLIENT -> SERVER: Email: dsadsadsad321@gmail.com<br />
+CLIENT -> SERVER: Phone: 321321<br />
+CLIENT -> SERVER: Company: 321321<br />
+CLIENT -> SERVER: Country: Afghanistan<br />
+CLIENT -> SERVER: Postcode/Zip code: 4321<br />
+CLIENT -> SERVER: Enquiry type: Enquiry Type<br />
+CLIENT -> SERVER: Message: 4321432</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_c8508dd209e29765e88a91d0f46cf8af--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:53:40 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: form contact DH
+CLIENT -> SERVER: Message-ID: <02062a24f8f98293ae1df38283b5120b@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: gếttété testes <br/>
+CLIENT -> SERVER: Email: dsadsadsad321@gmail.com<br/>
+CLIENT -> SERVER: Phone: 321321<br/>
+CLIENT -> SERVER: Company: 321321<br/>
+CLIENT -> SERVER: Country: Afghanistan<br/>
+CLIENT -> SERVER: Postcode/Zip code: 4321<br/>
+CLIENT -> SERVER: Enquiry type: Enquiry Type<br/>
+CLIENT -> SERVER: Message: 4321432<br/>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: -- 
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<tienbienit1992@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:54:24 +0000
+CLIENT -> SERVER: To: tienbienit1992@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: dsadsadsad@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <dfc39469ec5f83df2e7c25644cc03c43@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_dfc39469ec5f83df2e7c25644cc03c43"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_dfc39469ec5f83df2e7c25644cc03c43
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: fdsafd sfdsafds 
+CLIENT -> SERVER: Email: dsadsadsad@gmail.com
+CLIENT -> SERVER: Phone: 321321
+CLIENT -> SERVER: Company: 321321
+CLIENT -> SERVER: Country: Country
+CLIENT -> SERVER: Postcode/Zip code: 321321
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: 321321
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_dfc39469ec5f83df2e7c25644cc03c43
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: fdsafd sfdsafds <br />
+CLIENT -> SERVER: Email: dsadsadsad@gmail.com<br />
+CLIENT -> SERVER: Phone: 321321<br />
+CLIENT -> SERVER: Company: 321321<br />
+CLIENT -> SERVER: Country: Country<br />
+CLIENT -> SERVER: Postcode/Zip code: 321321<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: 321321</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_dfc39469ec5f83df2e7c25644cc03c43--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:54:24 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <042644fc6b945db06a8c9526b3a74c6c@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_042644fc6b945db06a8c9526b3a74c6c"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_042644fc6b945db06a8c9526b3a74c6c
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: fdsafd sfdsafds 
+CLIENT -> SERVER: Email: dsadsadsad@gmail.com
+CLIENT -> SERVER: Phone: 321321
+CLIENT -> SERVER: Company: 321321
+CLIENT -> SERVER: Country: Country
+CLIENT -> SERVER: Postcode/Zip code: 321321
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: 321321
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_042644fc6b945db06a8c9526b3a74c6c
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: fdsafd sfdsafds <br />
+CLIENT -> SERVER: Email: dsadsadsad@gmail.com<br />
+CLIENT -> SERVER: Phone: 321321<br />
+CLIENT -> SERVER: Company: 321321<br />
+CLIENT -> SERVER: Country: Country<br />
+CLIENT -> SERVER: Postcode/Zip code: 321321<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: 321321</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_042644fc6b945db06a8c9526b3a74c6c--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<tienbienit1992@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:55:06 +0000
+CLIENT -> SERVER: To: tienbienit1992@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: dsadsadsad@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <d4b2b16813dfcc613975826fd999b619@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_d4b2b16813dfcc613975826fd999b619"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d4b2b16813dfcc613975826fd999b619
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: fdsaffdsa fdsfads 
+CLIENT -> SERVER: Email: dsadsadsad@gmail.com
+CLIENT -> SERVER: Phone: 321321
+CLIENT -> SERVER: Company: 321321
+CLIENT -> SERVER: Country: Afghanistan
+CLIENT -> SERVER: Postcode/Zip code: 4321
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: 321321
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d4b2b16813dfcc613975826fd999b619
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: fdsaffdsa fdsfads <br />
+CLIENT -> SERVER: Email: dsadsadsad@gmail.com<br />
+CLIENT -> SERVER: Phone: 321321<br />
+CLIENT -> SERVER: Company: 321321<br />
+CLIENT -> SERVER: Country: Afghanistan<br />
+CLIENT -> SERVER: Postcode/Zip code: 4321<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: 321321</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d4b2b16813dfcc613975826fd999b619--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:55:06 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <361fef87a2fc124b90eba428cfd3e9f9@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_361fef87a2fc124b90eba428cfd3e9f9"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_361fef87a2fc124b90eba428cfd3e9f9
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: fdsaffdsa fdsfads 
+CLIENT -> SERVER: Email: dsadsadsad@gmail.com
+CLIENT -> SERVER: Phone: 321321
+CLIENT -> SERVER: Company: 321321
+CLIENT -> SERVER: Country: Afghanistan
+CLIENT -> SERVER: Postcode/Zip code: 4321
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: 321321
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_361fef87a2fc124b90eba428cfd3e9f9
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: fdsaffdsa fdsfads <br />
+CLIENT -> SERVER: Email: dsadsadsad@gmail.com<br />
+CLIENT -> SERVER: Phone: 321321<br />
+CLIENT -> SERVER: Company: 321321<br />
+CLIENT -> SERVER: Country: Afghanistan<br />
+CLIENT -> SERVER: Postcode/Zip code: 4321<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: 321321</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_361fef87a2fc124b90eba428cfd3e9f9--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<tienbienit1992@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:55:49 +0000
+CLIENT -> SERVER: To: tienbienit1992@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: fdsafdsaf@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <d36787c19a738325af564e64afb04c8c@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_d36787c19a738325af564e64afb04c8c"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d36787c19a738325af564e64afb04c8c
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: fdsafdsaf fdsafdsa 
+CLIENT -> SERVER: Email: fdsafdsaf@gmail.com
+CLIENT -> SERVER: Phone: 321321
+CLIENT -> SERVER: Company: 321321
+CLIENT -> SERVER: Country: Aruba
+CLIENT -> SERVER: Postcode/Zip code: 321321
+CLIENT -> SERVER: Enquiry type: Enquiry Type
+CLIENT -> SERVER: Message: 321321321
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d36787c19a738325af564e64afb04c8c
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: fdsafdsaf fdsafdsa <br />
+CLIENT -> SERVER: Email: fdsafdsaf@gmail.com<br />
+CLIENT -> SERVER: Phone: 321321<br />
+CLIENT -> SERVER: Company: 321321<br />
+CLIENT -> SERVER: Country: Aruba<br />
+CLIENT -> SERVER: Postcode/Zip code: 321321<br />
+CLIENT -> SERVER: Enquiry type: Enquiry Type<br />
+CLIENT -> SERVER: Message: 321321321</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_d36787c19a738325af564e64afb04c8c--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:55:49 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <f5de02d38624a8b8d9e1c5f0f39f0c20@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_f5de02d38624a8b8d9e1c5f0f39f0c20"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_f5de02d38624a8b8d9e1c5f0f39f0c20
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: fdsafdsaf fdsafdsa 
+CLIENT -> SERVER: Email: fdsafdsaf@gmail.com
+CLIENT -> SERVER: Phone: 321321
+CLIENT -> SERVER: Company: 321321
+CLIENT -> SERVER: Country: Aruba
+CLIENT -> SERVER: Postcode/Zip code: 321321
+CLIENT -> SERVER: Enquiry type: Enquiry Type
+CLIENT -> SERVER: Message: 321321321
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_f5de02d38624a8b8d9e1c5f0f39f0c20
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: fdsafdsaf fdsafdsa <br />
+CLIENT -> SERVER: Email: fdsafdsaf@gmail.com<br />
+CLIENT -> SERVER: Phone: 321321<br />
+CLIENT -> SERVER: Company: 321321<br />
+CLIENT -> SERVER: Country: Aruba<br />
+CLIENT -> SERVER: Postcode/Zip code: 321321<br />
+CLIENT -> SERVER: Enquiry type: Enquiry Type<br />
+CLIENT -> SERVER: Message: 321321321</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_f5de02d38624a8b8d9e1c5f0f39f0c20--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<tienbienit1992@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:56:29 +0000
+CLIENT -> SERVER: To: tienbienit1992@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: testtheme01@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <ab76ef391c5a92beb694759311fec474@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_ab76ef391c5a92beb694759311fec474"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_ab76ef391c5a92beb694759311fec474
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test tesy 
+CLIENT -> SERVER: Email: testtheme01@gmail.com
+CLIENT -> SERVER: Phone: 12121212
+CLIENT -> SERVER: Company: test
+CLIENT -> SERVER: Country: Australia
+CLIENT -> SERVER: Postcode/Zip code: 3004
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: test
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_ab76ef391c5a92beb694759311fec474
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test tesy <br />
+CLIENT -> SERVER: Email: testtheme01@gmail.com<br />
+CLIENT -> SERVER: Phone: 12121212<br />
+CLIENT -> SERVER: Company: test<br />
+CLIENT -> SERVER: Country: Australia<br />
+CLIENT -> SERVER: Postcode/Zip code: 3004<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: test</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_ab76ef391c5a92beb694759311fec474--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:56:29 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <53d118ba589d9ff2b34d4a3fa725491c@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_53d118ba589d9ff2b34d4a3fa725491c"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_53d118ba589d9ff2b34d4a3fa725491c
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test tesy 
+CLIENT -> SERVER: Email: testtheme01@gmail.com
+CLIENT -> SERVER: Phone: 12121212
+CLIENT -> SERVER: Company: test
+CLIENT -> SERVER: Country: Australia
+CLIENT -> SERVER: Postcode/Zip code: 3004
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: test
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_53d118ba589d9ff2b34d4a3fa725491c
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test tesy <br />
+CLIENT -> SERVER: Email: testtheme01@gmail.com<br />
+CLIENT -> SERVER: Phone: 12121212<br />
+CLIENT -> SERVER: Company: test<br />
+CLIENT -> SERVER: Country: Australia<br />
+CLIENT -> SERVER: Postcode/Zip code: 3004<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: test</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_53d118ba589d9ff2b34d4a3fa725491c--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<tienbienit1992@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:57:27 +0000
+CLIENT -> SERVER: To: tienbienit1992@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: tienbien@123.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <91563defa7b7b169df8ec26150ded5aa@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_91563defa7b7b169df8ec26150ded5aa"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_91563defa7b7b169df8ec26150ded5aa
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: Bien Vu 
+CLIENT -> SERVER: Email: tienbien@123.com
+CLIENT -> SERVER: Phone: 018384758342
+CLIENT -> SERVER: Company: Test
+CLIENT -> SERVER: Country: Viet Nam
+CLIENT -> SERVER: Postcode/Zip code: 100000
+CLIENT -> SERVER: Enquiry type: Two
+CLIENT -> SERVER: Message: demo
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_91563defa7b7b169df8ec26150ded5aa
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: Bien Vu <br />
+CLIENT -> SERVER: Email: tienbien@123.com<br />
+CLIENT -> SERVER: Phone: 018384758342<br />
+CLIENT -> SERVER: Company: Test<br />
+CLIENT -> SERVER: Country: Viet Nam<br />
+CLIENT -> SERVER: Postcode/Zip code: 100000<br />
+CLIENT -> SERVER: Enquiry type: Two<br />
+CLIENT -> SERVER: Message: demo</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_91563defa7b7b169df8ec26150ded5aa--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 03:57:27 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <4c429525b83c38f234e23b0c5587ad06@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_4c429525b83c38f234e23b0c5587ad06"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4c429525b83c38f234e23b0c5587ad06
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: Bien Vu 
+CLIENT -> SERVER: Email: tienbien@123.com
+CLIENT -> SERVER: Phone: 018384758342
+CLIENT -> SERVER: Company: Test
+CLIENT -> SERVER: Country: Viet Nam
+CLIENT -> SERVER: Postcode/Zip code: 100000
+CLIENT -> SERVER: Enquiry type: Two
+CLIENT -> SERVER: Message: demo
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4c429525b83c38f234e23b0c5587ad06
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: Bien Vu <br />
+CLIENT -> SERVER: Email: tienbien@123.com<br />
+CLIENT -> SERVER: Phone: 018384758342<br />
+CLIENT -> SERVER: Company: Test<br />
+CLIENT -> SERVER: Country: Viet Nam<br />
+CLIENT -> SERVER: Postcode/Zip code: 100000<br />
+CLIENT -> SERVER: Enquiry type: Two<br />
+CLIENT -> SERVER: Message: demo</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4c429525b83c38f234e23b0c5587ad06--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 04:00:16 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: maulinhvn@gmail.com
+CLIENT -> SERVER: Subject: Enquiries Steven John Clark Studios
+CLIENT -> SERVER: Message-ID: <1fd7453915250a9d588c096cf172d49b@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_1fd7453915250a9d588c096cf172d49b"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_1fd7453915250a9d588c096cf172d49b
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test test 
+CLIENT -> SERVER: Email: maulinhvn@gmail.com
+CLIENT -> SERVER: Phone: 121212
+CLIENT -> SERVER: Company: test
+CLIENT -> SERVER: Country: Aruba
+CLIENT -> SERVER: Postcode/Zip code: 3004
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_1fd7453915250a9d588c096cf172d49b
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries Steven John Clark Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test test <br />
+CLIENT -> SERVER: Email: maulinhvn@gmail.com<br />
+CLIENT -> SERVER: Phone: 121212<br />
+CLIENT -> SERVER: Company: test<br />
+CLIENT -> SERVER: Country: Aruba<br />
+CLIENT -> SERVER: Postcode/Zip code: 3004<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: </p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_1fd7453915250a9d588c096cf172d49b--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 04:00:16 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <49eb2f5fcbb86579962117184fe91e7e@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_49eb2f5fcbb86579962117184fe91e7e"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_49eb2f5fcbb86579962117184fe91e7e
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test test 
+CLIENT -> SERVER: Email: maulinhvn@gmail.com
+CLIENT -> SERVER: Phone: 121212
+CLIENT -> SERVER: Company: test
+CLIENT -> SERVER: Country: Aruba
+CLIENT -> SERVER: Postcode/Zip code: 3004
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_49eb2f5fcbb86579962117184fe91e7e
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test test <br />
+CLIENT -> SERVER: Email: maulinhvn@gmail.com<br />
+CLIENT -> SERVER: Phone: 121212<br />
+CLIENT -> SERVER: Company: test<br />
+CLIENT -> SERVER: Country: Aruba<br />
+CLIENT -> SERVER: Postcode/Zip code: 3004<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: </p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_49eb2f5fcbb86579962117184fe91e7e--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<tienbienit1992@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 04:32:20 +0000
+CLIENT -> SERVER: To: tienbienit1992@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: test@123.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <22f612ae42e117bd3c20c506a00f8c3c@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_22f612ae42e117bd3c20c506a00f8c3c"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_22f612ae42e117bd3c20c506a00f8c3c
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: sasa sada 
+CLIENT -> SERVER: Email: test@123.com
+CLIENT -> SERVER: Phone: 234567
+CLIENT -> SERVER: Company: sadsad
+CLIENT -> SERVER: Country: Afghanistan
+CLIENT -> SERVER: Postcode/Zip code: 100000
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: adasda
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_22f612ae42e117bd3c20c506a00f8c3c
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: sasa sada <br />
+CLIENT -> SERVER: Email: test@123.com<br />
+CLIENT -> SERVER: Phone: 234567<br />
+CLIENT -> SERVER: Company: sadsad<br />
+CLIENT -> SERVER: Country: Afghanistan<br />
+CLIENT -> SERVER: Postcode/Zip code: 100000<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: adasda</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_22f612ae42e117bd3c20c506a00f8c3c--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 04:32:20 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <9e026603d3949f5e85631a8878942611@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_9e026603d3949f5e85631a8878942611"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_9e026603d3949f5e85631a8878942611
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: sasa sada 
+CLIENT -> SERVER: Email: test@123.com
+CLIENT -> SERVER: Phone: 234567
+CLIENT -> SERVER: Company: sadsad
+CLIENT -> SERVER: Country: Afghanistan
+CLIENT -> SERVER: Postcode/Zip code: 100000
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: adasda
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_9e026603d3949f5e85631a8878942611
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: sasa sada <br />
+CLIENT -> SERVER: Email: test@123.com<br />
+CLIENT -> SERVER: Phone: 234567<br />
+CLIENT -> SERVER: Company: sadsad<br />
+CLIENT -> SERVER: Country: Afghanistan<br />
+CLIENT -> SERVER: Postcode/Zip code: 100000<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: adasda</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on denHolm Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_9e026603d3949f5e85631a8878942611--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 04:42:47 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: bienvu@gmail.com
+CLIENT -> SERVER: Subject: Enquiries Steven John Clark Studios
+CLIENT -> SERVER: Message-ID: <925b884340456950fdc00e77e734175c@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_925b884340456950fdc00e77e734175c"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_925b884340456950fdc00e77e734175c
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: bien vu 
+CLIENT -> SERVER: Email: bienvu@gmail.com
+CLIENT -> SERVER: Phone: 018475869294
+CLIENT -> SERVER: Company: Sentius
+CLIENT -> SERVER: Country: Viet Nam
+CLIENT -> SERVER: Postcode/Zip code: 10000
+CLIENT -> SERVER: Enquiry type: Two
+CLIENT -> SERVER: Message: Test form
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_925b884340456950fdc00e77e734175c
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries Steven John Clark Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: bien vu <br />
+CLIENT -> SERVER: Email: bienvu@gmail.com<br />
+CLIENT -> SERVER: Phone: 018475869294<br />
+CLIENT -> SERVER: Company: Sentius<br />
+CLIENT -> SERVER: Country: Viet Nam<br />
+CLIENT -> SERVER: Postcode/Zip code: 10000<br />
+CLIENT -> SERVER: Enquiry type: Two<br />
+CLIENT -> SERVER: Message: Test form</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_925b884340456950fdc00e77e734175c--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 04:42:47 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <7f1d593dbb518172aa5fea6d53a4bb18@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_7f1d593dbb518172aa5fea6d53a4bb18"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_7f1d593dbb518172aa5fea6d53a4bb18
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: bien vu 
+CLIENT -> SERVER: Email: bienvu@gmail.com
+CLIENT -> SERVER: Phone: 018475869294
+CLIENT -> SERVER: Company: Sentius
+CLIENT -> SERVER: Country: Viet Nam
+CLIENT -> SERVER: Postcode/Zip code: 10000
+CLIENT -> SERVER: Enquiry type: Two
+CLIENT -> SERVER: Message: Test form
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_7f1d593dbb518172aa5fea6d53a4bb18
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: bien vu <br />
+CLIENT -> SERVER: Email: bienvu@gmail.com<br />
+CLIENT -> SERVER: Phone: 018475869294<br />
+CLIENT -> SERVER: Company: Sentius<br />
+CLIENT -> SERVER: Country: Viet Nam<br />
+CLIENT -> SERVER: Postcode/Zip code: 10000<br />
+CLIENT -> SERVER: Enquiry type: Two<br />
+CLIENT -> SERVER: Message: Test form</p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_7f1d593dbb518172aa5fea6d53a4bb18--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 04:46:11 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: testtheme01@gmail.com
+CLIENT -> SERVER: Subject: Enquiries Steven John Clark Studios
+CLIENT -> SERVER: Message-ID: <9c316fb3600069a5700f2d3d0bd5f669@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_9c316fb3600069a5700f2d3d0bd5f669"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_9c316fb3600069a5700f2d3d0bd5f669
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test tesy 
+CLIENT -> SERVER: Email: testtheme01@gmail.com
+CLIENT -> SERVER: Phone: 12121212
+CLIENT -> SERVER: Company: test
+CLIENT -> SERVER: Country: Australia
+CLIENT -> SERVER: Postcode/Zip code: 3004
+CLIENT -> SERVER: Enquiry type: Enquiry Type
+CLIENT -> SERVER: Message: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_9c316fb3600069a5700f2d3d0bd5f669
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries Steven John Clark Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test tesy <br />
+CLIENT -> SERVER: Email: testtheme01@gmail.com<br />
+CLIENT -> SERVER: Phone: 12121212<br />
+CLIENT -> SERVER: Company: test<br />
+CLIENT -> SERVER: Country: Australia<br />
+CLIENT -> SERVER: Postcode/Zip code: 3004<br />
+CLIENT -> SERVER: Enquiry type: Enquiry Type<br />
+CLIENT -> SERVER: Message: </p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_9c316fb3600069a5700f2d3d0bd5f669--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Wed, 4 Jul 2018 04:46:11 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <17bd24cf1dac10d9479681bf5f50f969@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_17bd24cf1dac10d9479681bf5f50f969"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_17bd24cf1dac10d9479681bf5f50f969
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test tesy 
+CLIENT -> SERVER: Email: testtheme01@gmail.com
+CLIENT -> SERVER: Phone: 12121212
+CLIENT -> SERVER: Company: test
+CLIENT -> SERVER: Country: Australia
+CLIENT -> SERVER: Postcode/Zip code: 3004
+CLIENT -> SERVER: Enquiry type: Enquiry Type
+CLIENT -> SERVER: Message: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_17bd24cf1dac10d9479681bf5f50f969
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test tesy <br />
+CLIENT -> SERVER: Email: testtheme01@gmail.com<br />
+CLIENT -> SERVER: Phone: 12121212<br />
+CLIENT -> SERVER: Company: test<br />
+CLIENT -> SERVER: Country: Australia<br />
+CLIENT -> SERVER: Postcode/Zip code: 3004<br />
+CLIENT -> SERVER: Enquiry type: Enquiry Type<br />
+CLIENT -> SERVER: Message: </p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_17bd24cf1dac10d9479681bf5f50f969--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Thu, 5 Jul 2018 07:37:57 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: testtheme01@gmail.com
+CLIENT -> SERVER: Subject: Enquiries Steven John Clark Studios
+CLIENT -> SERVER: Message-ID: <b3fbc867e637401ddd912d76af0006f2@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_b3fbc867e637401ddd912d76af0006f2"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_b3fbc867e637401ddd912d76af0006f2
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test tesy 
+CLIENT -> SERVER: Email: testtheme01@gmail.com
+CLIENT -> SERVER: Phone: 12121212
+CLIENT -> SERVER: Company: test
+CLIENT -> SERVER: Country: Australia
+CLIENT -> SERVER: Postcode/Zip code: 3004
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_b3fbc867e637401ddd912d76af0006f2
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries Steven John Clark Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test tesy <br />
+CLIENT -> SERVER: Email: testtheme01@gmail.com<br />
+CLIENT -> SERVER: Phone: 12121212<br />
+CLIENT -> SERVER: Company: test<br />
+CLIENT -> SERVER: Country: Australia<br />
+CLIENT -> SERVER: Postcode/Zip code: 3004<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: </p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_b3fbc867e637401ddd912d76af0006f2--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO denholm.testbed.net.au
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Thu, 5 Jul 2018 07:37:57 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: denHolm <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Reply-To: sentius.dev@gmail.com
+CLIENT -> SERVER: Subject: Enquiries denHolm Studios
+CLIENT -> SERVER: Message-ID: <4f14c48549d8339b52c36778ec3eded5@denholm.testbed.net.au>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+CLIENT -> SERVER: 	boundary="b1_4f14c48549d8339b52c36778ec3eded5"
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This is a multi-part message in MIME format.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4f14c48549d8339b52c36778ec3eded5
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: From: test tesy 
+CLIENT -> SERVER: Email: testtheme01@gmail.com
+CLIENT -> SERVER: Phone: 12121212
+CLIENT -> SERVER: Company: test
+CLIENT -> SERVER: Country: Australia
+CLIENT -> SERVER: Postcode/Zip code: 3004
+CLIENT -> SERVER: Enquiry type: One
+CLIENT -> SERVER: Message: 
+CLIENT -> SERVER: --
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4f14c48549d8339b52c36778ec3eded5
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!doctype html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-AU">
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: <title>Enquiries denHolm Studios</title>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: <body>
+CLIENT -> SERVER: <p>From: test tesy <br />
+CLIENT -> SERVER: Email: testtheme01@gmail.com<br />
+CLIENT -> SERVER: Phone: 12121212<br />
+CLIENT -> SERVER: Company: test<br />
+CLIENT -> SERVER: Country: Australia<br />
+CLIENT -> SERVER: Postcode/Zip code: 3004<br />
+CLIENT -> SERVER: Enquiry type: One<br />
+CLIENT -> SERVER: Message: </p>
+CLIENT -> SERVER: <p>--<br />
+CLIENT -> SERVER: This e-mail was sent from a contact form on Steven John Clark Studios (http://denholm.testbed.net.au)</p>
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: --b1_4f14c48549d8339b52c36778ec3eded5--
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO instance-1
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Thu, 22 Nov 2018 16:36:27 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: WordPress <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Subject: [denHolm Studio] Notice of Password Change
+CLIENT -> SERVER: Message-ID: <36606f2aa523dde4e010d0324cbb4ae8@instance-1>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Hi webdev,
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This notice confirms that your password was changed on denHolm Studio.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: If you did not change your password, please contact the Site Administrator at
+CLIENT -> SERVER: sentius.dev@gmail.com
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This email has been sent to sentius.dev@gmail.com
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Regards,
+CLIENT -> SERVER: All at denHolm Studio
+CLIENT -> SERVER: http://denholm.testbed.net.au
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO instance-1
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: U2VudGl1cw==
+CLIENT -> SERVER: U2VudGl1c0AxMjM=
+CLIENT -> SERVER: MAIL FROM:<noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: RCPT TO:<sentius.dev@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Thu, 22 Nov 2018 16:37:20 +0000
+CLIENT -> SERVER: To: sentius.dev@gmail.com
+CLIENT -> SERVER: From: WordPress <noreply@denholm.testbed.net.au>
+CLIENT -> SERVER: Subject: [denHolm Studio] Notice of Password Change
+CLIENT -> SERVER: Message-ID: <577e1363b5658c1c40b9425adf4446e0@instance-1>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Hi webdev,
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This notice confirms that your password was changed on denHolm Studio.
+CLIENT -> SERVER: 
+CLIENT -> SERVER: If you did not change your password, please contact the Site Administrator at
+CLIENT -> SERVER: sentius.dev@gmail.com
+CLIENT -> SERVER: 
+CLIENT -> SERVER: This email has been sent to sentius.dev@gmail.com
+CLIENT -> SERVER: 
+CLIENT -> SERVER: Regards,
+CLIENT -> SERVER: All at denHolm Studio
+CLIENT -> SERVER: http://denholm.testbed.net.au
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
