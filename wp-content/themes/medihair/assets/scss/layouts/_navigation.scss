@@ -49,14 +49,17 @@
           }
         }
 
-        &:hover, 
-        &.current_page_item, 
-        &.current-menu-item, 
-        &.current-menu-parent {
+        &.current_page_item {
           >a {
             &:before {
               transform: scale(1);
             }
+          }
+        }
+
+        >a:hover {
+          &:before {
+            transform: scale(1);
           }
         }
 
@@ -113,8 +116,9 @@
             color: #fff;
             position: absolute;
             top: 0;
-            right: -21px;
+            right: -25px;
             transition: .3s;
+            width: 24px;
 
             @media only screen and (max-width: 1179px) {
               top: -4px;
