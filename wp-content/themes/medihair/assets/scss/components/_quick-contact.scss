@@ -1,0 +1,63 @@
+.quick-contact {
+  position: fixed;
+  right: -385px;
+  top: 20%;
+  z-index: 10;
+  transition: .5s;
+
+  @media only screen and (max-width: $mobileOnly) { 
+    display: none;
+  }
+
+  &.is-active {
+    box-shadow: 0 0 15px -5px #555;
+    right: 0;
+  }
+
+  &__form {
+    padding: 25px;
+    background: #fff;
+    width: 385px;
+
+    h3 {
+      line-height: 0.7;
+      margin: 2px 0 25px 6px;
+    }
+
+    .form-type-textarea {
+      line-height: 0;
+    }
+
+    .form-actions {
+      margin-bottom: 0;
+      margin-left: 6px;
+    }
+
+    select, input[type="text"], input[type="number"], input[type="tel"], input[type="url"], input[type="email"], input[type="password"], input[type="hidden"], input[type="search"], .form-textarea, textarea { 
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  &__title {
+    display: flex;
+    position: absolute;
+    background-color: $blue;
+    bottom: 95%;
+    width: 180px;
+    margin: 0;
+    right: 100%;
+    line-height: 1;
+    transform-origin: right bottom;
+    transform: rotate(-90deg);
+    height: 40px;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    justify-content: center;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+
+
+}

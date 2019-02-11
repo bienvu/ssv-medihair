@@ -34,4 +34,5 @@
       </div>  
     </div>    
   </main>
+  <?php echo do_shortcode("[block id='quick-contact']"); ?>
 <?php get_footer(); ?>
