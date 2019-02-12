@@ -43,14 +43,6 @@
       }
     }  
 
-    @media only screen and (max-width: 380px) { 
-      select, input[type="text"], input[type="number"], input[type="tel"], input[type="url"], input[type="email"], input[type="password"], input[type="hidden"], input[type="search"], .form-textarea, textarea { 
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 12px;
-      }
-    }
-
     h3 {
       line-height: 0.7;
       margin: 2px 0 25px 6px;
@@ -67,6 +59,14 @@
     select, input[type="text"], input[type="number"], input[type="tel"], input[type="url"], input[type="email"], input[type="password"], input[type="hidden"], input[type="search"], .form-textarea, textarea { 
       padding-left: 15px;
       padding-right: 15px;
+    }
+
+    @media only screen and (max-width: 380px) { 
+      select, input[type="text"], input[type="number"], input[type="tel"], input[type="url"], input[type="email"], input[type="password"], input[type="hidden"], input[type="search"], .form-textarea, textarea { 
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+      }
     }
   }
 
