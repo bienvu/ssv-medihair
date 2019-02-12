@@ -181,6 +181,10 @@
     .grid-image__content {
       a {
         text-decoration: none;
+
+        img {
+          width: 100%;
+        }
       }
     }
 
