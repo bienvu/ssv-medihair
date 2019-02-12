@@ -36,8 +36,8 @@
     }
 
     select, input[type="text"], input[type="number"], input[type="tel"], input[type="url"], input[type="email"], input[type="password"], input[type="hidden"], input[type="search"], .form-textarea, textarea { 
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 13px;
+      padding-right: 13px;
     }
 
     @media only screen and (max-width: $mobileOnly) and (max-height: 580px) { 
