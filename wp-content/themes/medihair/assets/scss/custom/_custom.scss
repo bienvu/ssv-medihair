@@ -67,7 +67,7 @@
   }
 }
 
-.costs .box-image-text {
+.page-id-387 .box-image-text {
   &__image {
     @media only screen and (max-width: 1179px) {
       background-position: left;
@@ -77,4 +77,66 @@
       background-position: center;
     }
   }
+}
+
+.page-id-387 main .box-text__content .h1 br.mobile-only {
+  @media only screen and (max-width: $mobilePortrait) {
+    display: block !important;
+  }
+}
+
+.footer-sticky {
+    position: fixed;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    background: #f8f8f8;
+    font-size: 12px;
+    box-shadow: 0 0 10px -2px #444;
+    transition: .5s;
+    letter-spacing: 1.2px;
+
+    @media only screen and (min-width: $tablet) {
+      display: none;
+    }
+
+    a {
+      padding: 20px;
+      display: block;
+      text-align: center;
+    }
+}
+
+.scroll-down .footer-sticky {
+    bottom: 0;
+    transition: .5s;
+}
+
+.page-id-42 {
+  @media only screen and (max-width: $mobileOnly) {
+    .footer-sticky {
+      display: none;
+    }
+    footer {
+      padding-bottom: 0;
+    }
+  } 
+}
+
+footer {
+  @media only screen and (max-width: $mobileOnly) {
+    padding-bottom: 60px;
+  }  
+}
+
+.home {
+   @media only screen and (max-width: 910px) and (min-width: $mobileOnly){
+    .grid-image {
+      &--2col {
+        a.btn {
+          display: none;
+        }
+      }
+    }
+   }
 }

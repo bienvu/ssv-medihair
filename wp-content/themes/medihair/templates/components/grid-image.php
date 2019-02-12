@@ -47,20 +47,22 @@ if( get_row_layout() == 'grid_image' ):
                     <?php if($type=='grid-image--4col'): ?>
                       <div class="grid-image--4col__content">
                         <?php echo $content; ?>
+
                       </div>  
                     <?php endif; ?> 
+                    <div class="grid-image__link">
+                      <?php if($type=='grid-image--2col'): ?>
+                        <div class="grid-image__body">
+                          <?php echo $content; ?>
+                        </div>
+                      <?php endif; ?>
+                      <?php if( $link ): ?>
+                      <a class="btn btn--bg-white" href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo $link['title']; ?></a>
+                      <?php endif; ?>
+                    </div>
                   </a>
                   
-                  <div class="grid-image__link">
-                    <?php if($type=='grid-image--2col'): ?>
-                      <div class="grid-image__body">
-                        <?php echo $content; ?>
-                      </div>
-                    <?php endif; ?>
-                    <?php if( $link ): ?>
-                    <a class="btn btn--bg-white" href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo $link['title']; ?></a>
-                    <?php endif; ?>
-                  </div>
+                  
                 </div>
               </div>
             <?php endwhile;
