@@ -4,6 +4,7 @@
   bottom: 0;
   z-index: 10;
   transition: .5s;
+
   @media only screen and (max-width: $mobileOnly) { 
     width: 100%;
     right: -100%;
@@ -18,6 +19,8 @@
     padding: 25px;
     background: #fff;
     width: 385px;
+    overflow-y: auto; 
+    max-height: calc(100vh - 90px);
 
     h3 {
       line-height: 0.7;
@@ -37,8 +40,8 @@
       padding-right: 15px;
     }
 
-    @media only screen and (max-height: 580px) { 
-      overflow-y: scroll; 
+    @media only screen and (max-width: $mobileOnly) and (max-height: 580px) { 
+      overflow-y: auto; 
       max-height: calc(100vh - 88px);
     }
 
