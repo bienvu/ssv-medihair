@@ -21,7 +21,7 @@
 
     @media only screen and (max-height: 580px) { 
       overflow-y: scroll; 
-      max-height: calc(100vh - 78px);
+      max-height: calc(100vh - 88px);
     }
 
     @media only screen and (max-width: $mobileOnly) { 
@@ -42,6 +42,14 @@
         margin-bottom: 10px;
       }
     }  
+
+    @media only screen and (max-width: 380px) { 
+      select, input[type="text"], input[type="number"], input[type="tel"], input[type="url"], input[type="email"], input[type="password"], input[type="hidden"], input[type="search"], .form-textarea, textarea { 
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+      }
+    }
 
     h3 {
       line-height: 0.7;
