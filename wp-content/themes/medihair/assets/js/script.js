@@ -176,6 +176,10 @@
       $('.quick-contact').toggleClass('is-active');
     });
 
+    $('.quick-contact__close').click(function(){
+      $('.quick-contact').removeClass('is-active');
+    });
+
     $(window).click(function (e)
       {
         var container = $('.quick-contact');
