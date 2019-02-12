@@ -19,30 +19,6 @@
     background: #fff;
     width: 385px;
 
-    @media only screen and (max-height: 580px) { 
-      overflow-y: scroll; 
-      max-height: calc(100vh - 88px);
-    }
-
-    @media only screen and (max-width: $mobileOnly) { 
-      width: 100%;
-      padding: 15px;
-
-      .ajax-loader {
-        display: none !important;
-      }
-
-      .form-actions {
-        input {
-          margin-bottom: 0;
-        }
-      }
-
-      .form-item {
-        margin-bottom: 10px;
-      }
-    }  
-
     h3 {
       line-height: 0.7;
       margin: 2px 0 25px 6px;
@@ -60,6 +36,32 @@
       padding-left: 15px;
       padding-right: 15px;
     }
+
+    @media only screen and (max-height: 580px) { 
+      overflow-y: scroll; 
+      max-height: calc(100vh - 88px);
+    }
+
+    @media only screen and (max-width: $mobileOnly) { 
+      width: 100%;
+      padding: 15px;
+
+      .ajax-loader {
+        display: none !important;
+      }
+
+      .form-actions {
+        margin-left: 0;
+
+        input {
+          margin-bottom: 0;
+        }
+      }
+
+      .form-item {
+        margin-bottom: 10px;
+      }
+    }  
 
     @media only screen and (max-width: 380px) { 
       select, input[type="text"], input[type="number"], input[type="tel"], input[type="url"], input[type="email"], input[type="password"], input[type="hidden"], input[type="search"], .form-textarea, textarea { 
