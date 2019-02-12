@@ -62,7 +62,19 @@
 }
 
 @media only screen and (max-width: 374px) {
-  br {
+  .banner br {
     display: none !important;
+  }
+}
+
+.costs .box-image-text {
+  &__image {
+    @media only screen and (max-width: 1179px) {
+      background-position: left;
+    }
+
+     @media only screen and (max-width: $mobileOnly) {
+      background-position: center;
+    }
   }
 }

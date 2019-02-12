@@ -193,6 +193,13 @@ function medihair_remove_page_from_query_string($query_string)
     return $query_string;
 }
 
+/* shortcode for the current year */
+function year_shortcode() {
+  $year = date('Y');
+  return $year;
+}
+
+add_shortcode('year', 'year_shortcode');
 
 /*------------------------------------*\
   Actions + Filters + ShortCodes

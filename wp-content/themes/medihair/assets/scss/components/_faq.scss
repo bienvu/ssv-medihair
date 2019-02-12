@@ -14,10 +14,13 @@
   }
 
   &__item {
+    margin-bottom: 25px;
+
     @media only screen and (max-width: $mobileOnly) {
       border-bottom: solid 1px #ccc;
       padding: 12px 0;
       position: relative;
+      margin-bottom: 0;
 
       &:before {
         content: "\e902";

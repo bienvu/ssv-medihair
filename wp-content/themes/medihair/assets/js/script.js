@@ -171,7 +171,10 @@
       }
     });
 
-
+    // Quick contack
+    $('.quick-contact__title').click(function(){
+      $('.quick-contact').toggleClass('is-active');
+    });
 
 
   });

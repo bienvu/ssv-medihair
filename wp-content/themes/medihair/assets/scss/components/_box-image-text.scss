@@ -92,6 +92,11 @@
     >div {
       width: 70%;
       margin-left: 14%;
+      padding: 20px 0 0;
+
+      @media only screen and (max-width: $mobileOnly) {
+        padding: 20px 0;
+      }
 
       @media only screen and (max-width: $mobilePortraitOnly) {
         width: 100%;
@@ -105,12 +110,23 @@
     margin-top: 35px;
     margin-bottom: 25px;
 
+    @media only screen and (max-width: $mobileOnly) {
+      margin-bottom: 0;
+    }
+
     @media only screen and (max-width: $mobilePortraitOnly) {
       margin-top: 18px;
       margin-bottom: 0px;
     }
-    a{
+    
+    a {
       margin-right: 15px;
+
+      @media only screen and (max-width: $mobileOnly) {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
 
       @media only screen and (min-width: $tablet) {
         &:last-child {
@@ -170,7 +186,6 @@ body:not(.home) .box-image-text {
   &__content {
     @media only screen and (max-width: $mobileOnly) {
       padding: 35px 0;
-      background-color: $gray;
     }
   }
 
