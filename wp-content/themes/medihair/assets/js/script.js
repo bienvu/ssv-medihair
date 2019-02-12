@@ -176,6 +176,29 @@
       $('.quick-contact').toggleClass('is-active');
     });
 
+    $(window).click(function (e)
+      {
+        var container = $('.quick-contact');
+        if (!container.is(e.target)
+          && container.has(e.target).length === 0)
+        {
+        container.removeClass('is-active');
+      }
+    })
+
+    // Detect scroll Up/down
+    var iScrollPos = 0;
+    $(window).scroll(function () {
+        var iCurScrollPos = $(this).scrollTop();
+        if (iCurScrollPos > iScrollPos) {
+          $('body').removeClass('scroll-up');
+          $('body').addClass('scroll-down');
+        } else {
+          $('body').addClass('scroll-up');
+          $('body').removeClass('scroll-down');
+        }
+        iScrollPos = iCurScrollPos;
+    });
 
   });
 }(this, this.document, this.jQuery));

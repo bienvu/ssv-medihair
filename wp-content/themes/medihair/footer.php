@@ -30,6 +30,9 @@
             </div>
         </div>
       </footer>
+      <div class="footer-sticky">
+        <a href="/contact">FREE CONSULTATION</a>
+      </div>
     </div>
     <!-- /wrapper -->
 
