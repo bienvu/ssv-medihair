@@ -1,3 +1,7 @@
+.quick-contact-ac {
+  overflow: hidden;
+}
+
 .quick-contact {
   position: fixed;
   right: -385px;
@@ -7,13 +11,9 @@
 
   @media only screen and (max-width: $mobileOnly) { 
     width: 100%;
-    right: -100%;
-  } 
-
-  &.is-active {
-    box-shadow: 0 0 15px -5px #555;
     right: 0;
-  }
+    top: 100%;
+  } 
 
   &__form {
     padding: 25px;
@@ -42,7 +42,7 @@
 
     @media only screen and (max-width: $mobileOnly) and (max-height: 580px) { 
       overflow-y: auto; 
-      max-height: calc(100vh - 88px);
+      max-height: calc(100vh - 128px);
     }
 
     @media only screen and (max-width: $mobileOnly) { 
@@ -95,15 +95,49 @@
     letter-spacing: 0.5px;
     @media only screen and (max-width: $mobileOnly) { 
       transform: rotate(0);
-      bottom: 0;
+      bottom: 100%;
+      right: 0;
       width: 100%;
+      height: 44px;
+
+      span.mobile-only {
+        padding-right: 23px;
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        position: relative;
+
+        &:after {
+          font-family: "med", Helvetica, Arial, sans-serif;
+          content: "\e902";
+          font-size: 13px;
+          color: #fff;
+          position: absolute;
+          top: 0;
+          right: 0;
+          transition: .3s;
+          width: 24px;
+          transform: rotate(-180deg);
+        }
+      }
     }
   }
 
-  &__close {
-    font-size: 22px;
-    float: right;
-    margin-top: -52px;
-    cursor: pointer;
+  &.is-active {
+    box-shadow: 0 0 15px -5px #555;
+    right: 0;
+
+    @media only screen and (max-width: $mobileOnly) { 
+      bottom: 0;
+      top: auto;
+
+      .quick-contact__title {
+        span.mobile-only {
+          &:after {
+            transform: rotate(0);
+            right: -8px;
+          }
+        }
+      }
+    }
   }
 }

@@ -174,10 +174,7 @@
     // Quick contack
     $('.quick-contact__title').click(function(){
       $('.quick-contact').toggleClass('is-active');
-    });
-
-    $('.quick-contact__close').click(function(){
-      $('.quick-contact').removeClass('is-active');
+      $('body').toggleClass('quick-contact-ac');
     });
 
     $(window).click(function (e)
@@ -187,6 +184,7 @@
           && container.has(e.target).length === 0)
         {
         container.removeClass('is-active');
+        $('body').removeClass('quick-contact-ac');
       }
     })
 
