@@ -24,14 +24,6 @@
                 <span> Published <?php the_time('j F Y'); ?> </span>
               </div>
               <div class="article-detail__social">
-                <a class="social-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>">
-                  <i class="icon-facebook">
-                  </i>
-                </a>
-                <a class="social-twitter" target="_blank" href="https://twitter.com/home?status=<?php echo get_permalink(); ?>">
-                  <i class="icon-twitter">
-                  </i>
-                </a>
                 <a class="social-email" href="mailto:?subject=Medihair&body=<?php echo get_permalink(); ?>">
                   <i class="icon-email">
                   </i>
