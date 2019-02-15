@@ -1,5 +1,13 @@
 .quick-contact-ac {
-  overflow: hidden;
+  position: fixed;
+  overflow-y: scroll;
+
+  main {
+     @media only screen and (max-width: $mobileOnly) { 
+      z-index: 60;
+      position: relative;
+     }
+  }
 }
 
 .quick-contact {
@@ -20,7 +28,7 @@
     background: #fff;
     width: 385px;
     overflow-y: auto; 
-    max-height: calc(100vh - 90px);
+    max-height: calc(100vh - 120px);
 
     h3 {
       line-height: 0.7;
@@ -42,12 +50,15 @@
 
     @media only screen and (max-width: $mobileOnly) and (max-height: 580px) { 
       overflow-y: auto; 
-      max-height: calc(100vh - 128px);
+      max-height: calc(100vh - 138px);
+      max-height: -webkit-calc(100vh - 138px);
+      max-height: -moz-calc(100vh - 138px);
     }
 
     @media only screen and (max-width: $mobileOnly) { 
       width: 100%;
       padding: 15px;
+      z-index: 51;
 
       .ajax-loader {
         display: none !important;

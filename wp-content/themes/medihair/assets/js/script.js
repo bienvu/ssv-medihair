@@ -171,6 +171,20 @@
       }
     });
 
+    // Detect scroll Up/down
+    var iScrollPos = 0;
+    $(window).scroll(function () {
+        var iCurScrollPos = $(this).scrollTop();
+        if (iCurScrollPos > iScrollPos) {
+          $('body').removeClass('scroll-up');
+          $('body').addClass('scroll-down');
+        } else {
+          $('body').addClass('scroll-up');
+          $('body').removeClass('scroll-down');
+        }
+        iScrollPos = iCurScrollPos;
+    });
+
     // Quick contack
     $('.quick-contact__title').click(function(){
       $('.quick-contact').toggleClass('is-active');
@@ -187,20 +201,6 @@
         $('body').removeClass('quick-contact-ac');
       }
     })
-
-    // Detect scroll Up/down
-    var iScrollPos = 0;
-    $(window).scroll(function () {
-        var iCurScrollPos = $(this).scrollTop();
-        if (iCurScrollPos > iScrollPos) {
-          $('body').removeClass('scroll-up');
-          $('body').addClass('scroll-down');
-        } else {
-          $('body').addClass('scroll-up');
-          $('body').removeClass('scroll-down');
-        }
-        iScrollPos = iCurScrollPos;
-    });
 
   });
 }(this, this.document, this.jQuery));
