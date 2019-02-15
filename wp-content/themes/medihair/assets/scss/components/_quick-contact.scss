@@ -1,14 +1,16 @@
 .quick-contact {
   position: fixed;
-  right: -385px;
-  top: 17%;
   z-index: 10;
   transition: .5s;
 
+  @media only screen and (min-width: $tablet) { 
+    right: -385px;
+    top: 17%;
+  } 
+
   @media only screen and (max-width: $mobileOnly) { 
     width: 100%;
-    right: 0;
-    top: 100%;
+    bottom: -443px;
   } 
 
   &__form {
@@ -42,13 +44,14 @@
 
     @media only screen and (max-width: $mobileOnly) and (max-height: 580px) { 
       overflow-y: auto; 
-      max-height: 445px;
+      max-height: 442px;
     }
 
     @media only screen and (max-width: $mobileOnly) { 
       width: 100%;
       padding: 15px;
-      max-height: 445px;
+      max-height: 443px;
+      height: 443px;
 
       .ajax-loader {
         display: none !important;
@@ -78,25 +81,34 @@
 
   &__title {
     display: flex;
-    position: absolute;
+    position: fixed;
     background-color: $blue;
-    bottom: 95%;
     width: 180px;
     margin: 0;
-    right: 100%;
     line-height: 1;
     transform-origin: right bottom;
-    transform: rotate(-90deg);
-    height: 40px;
     align-items: center;
     text-transform: uppercase;
     cursor: pointer;
     justify-content: center;
     color: #fff;
     letter-spacing: 0.5px;
+    transition: .5s;
+    z-index: 10;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,15,34,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,15,34,1);
+    box-shadow: 0px 0px 10px 0px rgba(0,15,34,1);
+
+    @media only screen and (min-width: $tablet) { 
+      top: 17%;
+      right: 0;
+      transform: rotate(-90deg);
+      height: 40px;
+    } 
+
     @media only screen and (max-width: $mobileOnly) { 
       transform: rotate(0);
-      bottom: 100%;
+      bottom: 0;
       right: 0;
       width: 100%;
       height: 44px;
@@ -133,16 +145,27 @@
 
     @media only screen and (max-width: $mobileOnly) { 
       bottom: 0;
-      top: auto;
+    }
+  }
+}
 
-      .quick-contact__title {
-        span.mobile-only {
-          &:after {
-            transform: rotate(0);
-            right: -8px;
-          }
+.quick-contact-ac{
+  @media only screen and (min-width: $tablet) { 
+    .quick-contact__title {
+      right: 385px;
+    }
+  }
+
+  @media only screen and (max-width: $mobileOnly) {
+    .quick-contact__title {
+      bottom: 442px;
+
+      span.mobile-only {
+        &:after {
+          transform: rotate(0);
+          right: -8px;
         }
       }
     }
   }
-}
+} 

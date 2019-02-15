@@ -193,11 +193,11 @@
 
     $(window).click(function (e)
       {
-        var container = $('.quick-contact');
+        var container = $('.quick-contact__wrap');
         if (!container.is(e.target)
           && container.has(e.target).length === 0)
         {
-        container.removeClass('is-active');
+        container.find('.quick-contact').removeClass('is-active');
         $('body').removeClass('quick-contact-ac');
       }
     })
