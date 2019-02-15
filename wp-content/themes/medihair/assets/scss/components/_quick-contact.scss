@@ -1,12 +1,3 @@
-.quick-contact-ac {
-  main {
-     @media only screen and (max-width: $mobileOnly) { 
-      z-index: 60;
-      position: relative;
-     }
-  }
-}
-
 .quick-contact {
   position: fixed;
   right: -385px;
@@ -57,7 +48,6 @@
     @media only screen and (max-width: $mobileOnly) { 
       width: 100%;
       padding: 15px;
-      z-index: 51;
       max-height: 445px;
 
       .ajax-loader {
@@ -140,7 +130,7 @@
     .quick-contact__form--content {
       opacity: 1;
     }
-    
+
     @media only screen and (max-width: $mobileOnly) { 
       bottom: 0;
       top: auto;
