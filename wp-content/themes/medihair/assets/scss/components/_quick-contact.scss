@@ -28,7 +28,7 @@
     background: #fff;
     width: 385px;
     overflow-y: auto; 
-    max-height: calc(100vh - 120px);
+    max-height: calc(100vh - 150px);
 
     h3 {
       line-height: 0.7;
@@ -50,15 +50,14 @@
 
     @media only screen and (max-width: $mobileOnly) and (max-height: 580px) { 
       overflow-y: auto; 
-      max-height: calc(100vh - 138px);
-      max-height: -webkit-calc(100vh - 138px);
-      max-height: -moz-calc(100vh - 138px);
+      max-height: 445px;
     }
 
     @media only screen and (max-width: $mobileOnly) { 
       width: 100%;
       padding: 15px;
       z-index: 51;
+      max-height: 445px;
 
       .ajax-loader {
         display: none !important;
