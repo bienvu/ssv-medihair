@@ -1,7 +1,4 @@
 .quick-contact-ac {
-  position: fixed;
-  overflow-y: scroll;
-
   main {
      @media only screen and (max-width: $mobileOnly) { 
       z-index: 60;
@@ -29,6 +26,10 @@
     width: 385px;
     overflow-y: auto; 
     max-height: calc(100vh - 150px);
+
+    &--content {
+      opacity: 0;
+    }
 
     h3 {
       line-height: 0.7;
@@ -136,6 +137,10 @@
     box-shadow: 0 0 15px -5px #555;
     right: 0;
 
+    .quick-contact__form--content {
+      opacity: 1;
+    }
+    
     @media only screen and (max-width: $mobileOnly) { 
       bottom: 0;
       top: auto;
