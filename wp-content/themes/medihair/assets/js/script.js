@@ -101,10 +101,10 @@
     var $jsBanner = $('.js-slider');
     $jsBanner.slick({
       dots: true,
-      autoplay: true,
-      speed: 2000,
+      autoplay: false,
+      speed: 1500,
       fade: true,
-      autoplaySpeed: 2000,
+      //autoplaySpeed: 2000,
       prevArrow: '<span class="slick-prev slick-arrow" aria-label="Previous" type="span">Previous</span>',
       nextArrow: '<span class="slick-next slick-arrow" aria-label="Next" type="span">Next</span>',
       customPaging: function(slider, i) {
