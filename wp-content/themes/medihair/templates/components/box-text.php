@@ -10,7 +10,7 @@ if( get_row_layout() == 'box_text' ):
       <div class="box-text__content">
         <?php if($title): ?>
           <div class="section-title">
-            <h2 class="text--left"><?php echo $title; ?></h2>
+            <div class="text--left"><?php echo $title; ?></div>
           </div>
         <?php endif; ?>
         <?php echo $body; ?>
