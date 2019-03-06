@@ -102,7 +102,7 @@
     $jsBanner.slick({
       dots: true,
       autoplay: false,
-      speed: 1500,
+      speed: 800,
       fade: true,
       //autoplaySpeed: 2000,
       prevArrow: '<span class="slick-prev slick-arrow" aria-label="Previous" type="span">Previous</span>',
