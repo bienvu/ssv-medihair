@@ -101,7 +101,7 @@
     var $jsBanner = $('.js-slider');
     $jsBanner.slick({
       dots: true,
-      autoplay: false,
+      autoplay: true,
       speed: 800,
       fade: true,
       //autoplaySpeed: 2000,
